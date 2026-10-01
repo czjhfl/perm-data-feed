@@ -1,0 +1,49 @@
+name: Watch DOL disclosure file
+
+# 侦察兵：每周一打开 www.dol.gov 的 performance 页面，只看最新的 PERM 披露表**文件名**，
+# 和本站点上已有的（data/perm_status.json 的 source）比一下，结果写进 data/perm_feed_watch.json。
+# 不下载大文件（runner 下载会被 Akamai 403），也不碰 perm_case_stats.json。
+# 为什么能在这儿跑：runner 的 Chromium 读这个页面是通的（实测 412KB、能列出全部 xlsx 链接）。
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"      # 每周一 09:00 UTC（北京时间 17:00）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 装 Playwright 与 Chromium
+        run: |
+          pip install playwright==1.48.0
+          playwright install --with-deps chromium
+
+      - name: 侦察最新披露表文件名
+        run: python scripts/watch_dol.py
+        continue-on-error: true
+
+      - name: 提交侦察结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/perm_feed_watch.json || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "watch: DOL 披露表侦察 $(date -u +%F)"
+            git push
+            echo "已提交本次侦察结果"
+          else
+            echo "侦察结果与上次完全相同，不提交"
+          fi
+
+      - name: 打印本次结论
+        run: cat data/perm_feed_watch.json
