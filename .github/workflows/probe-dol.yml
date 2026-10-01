@@ -45,15 +45,41 @@ jobs:
                   print("参考号片段：", re.findall(r"Reference #[0-9a-f.]+", html)[:1])
                   b.close(); sys.exit(2)
               links = page.eval_on_selector_all("a[href*='.xlsx']", "els => els.map(e => e.href)")
-              perm = [u for u in links if re.search(r"PERM_Disclosure_Data_FY\d{4}_Q\d", u, re.I)]
-              print("结论：可达 —— 页面 %d 字节，xlsx 链接 %d 个，其中 PERM 披露表 %d 个"
+              perm = [u for u in links if re.search(r"PERM_Disclosure_Data(_New_Form)?_FY\w+\.xlsx", u, re.I)]
+              print("结论：页面可达 —— %d 字节，xlsx 链接 %d 个，其中 PERM 披露表 %d 个"
                     % (len(html), len(links), len(perm)))
-              for u in sorted(perm)[-5:]:
-                  print("  ", u.rsplit("/", 1)[-1])
-              if perm:
-                  head = ctx.request.get(perm[-1], timeout=120000)
-                  print("  下载试探：HTTP %s，content-length=%s"
-                        % (head.status, head.headers.get("content-length")))
-                  print("  结论：可下载 —— 方案一的取数环节成立")
+
+              def fy(u):
+                  m = re.search(r"FY(\d{4})(?:_Q(\d))?", u, re.I)
+                  return (int(m.group(1)), int(m.group(2) or 0)) if m else (0, 0)
+
+              # 最新一份（当前在 /media/ 下）+ 一条历史的 /sites/dolgov/files/ 路径，
+              # 用来区分"整段 IP 被拦"和"只有某个文件路径被拦"。
+              newest = sorted(perm, key=fy)[-1:]
+              legacy = [u for u in perm if "/sites/" in u]
+              cands = newest + (sorted(legacy, key=fy)[-1:] if legacy else [])
+              if not cands:
+                  print("结论：页面上没找到 PERM_Disclosure_Data_FYxxxx_Qx.xlsx —— 官方可能改版了")
+
+              for u in cands:
+                  name = u.rsplit("/", 1)[-1]
+                  try:
+                      r = ctx.request.get(u, timeout=120000,
+                                          headers={"Referer": URL,
+                                                   "Accept": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,*/*"})
+                      body = r.body()
+                      is_xlsx = body[:2] == b"PK"
+                      total = r.headers.get("content-length")
+                      if r.status in (200, 206) and is_xlsx and len(body) > 1000:
+                          print("  %s -> HTTP %d，拿到 %d 字节，文件头 PK（真 xlsx）：可下载"
+                                % (name, r.status, len(body)))
+                      else:
+                          print("  %s -> HTTP %d，content-length=%s，拿到 %d 字节，文件头 %r：被拦（不是真文件）"
+                                % (name, r.status, total, len(body), body[:20]))
+                  except Exception as exc:
+                      print("  %s -> 请求异常：%s" % (name, exc))
+
+              print("判定口径：只有上面出现「可下载」才算方案一的取数环节成立；"
+                    "HTTP 200 但文件头不是 PK，或几百字节的 Access Denied 页，都算被拦。")
               b.close()
           PY
