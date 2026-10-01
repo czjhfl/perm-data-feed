@@ -36,7 +36,7 @@ STATUS_FILE = OUT_DIR / "perm_status.json"
 RECEIVED_COLS = ["RECEIVED_DATE", "CASE_RECEIVED_DATE", "CASE_RECEIVED", "RECEIVED"]
 DECISION_COLS = ["DECISION_DATE", "CASE_DECISION_DATE", "DECISION"]
 STATUS_COLS = ["CASE_STATUS", "STATUS", "DECISION"]
-EMPLOYER_COLS = ["EMPLOYER_NAME", "EMPLOYER", "EMPLOYER_NAME_AS"]
+EMPLOYER_COLS = ["EMP_BUSINESS_NAME", "EMP_TRADE_NAME", "EMPLOYER_NAME", "EMPLOYER", "EMPLOYER_NAME_AS"]
 PROGRAM_COLS = ["PROGRAM", "CASE_TYPE", "PROGRAM_NAME"]
 
 STATUS_KEYS = {
@@ -49,7 +49,8 @@ STATUS_KEYS = {
 }
 
 MAX_DECISION_MONTHS = 24      # 控制 JSON 体积
-MAX_SUBMIT_MONTHS = 14
+MAX_SUBMIT_MONTHS = 36        # 老递交月队列才有可用的裁决前沿，见 letter_progress 注释
+MIN_LETTER_CASES = 3          # 样本太少的字母不输出，避免"1 个案子"式噪声
 LETTERS = [chr(c) for c in range(ord("A"), ord("Z") + 1)]
 
 
@@ -173,6 +174,8 @@ def aggregate(xlsx_bytes: bytes, source_name: str) -> dict:
     by_decision = []
     for month, g in decided.groupby(decided[decision].dt.strftime("%Y-%m")):
         counts = g["_status"].map(STATUS_KEYS).dropna().value_counts()
+        merits = g[g["_status"] != "withdrawn"]
+        mdays = merits["_days"].tolist()
         by_decision.append({
             "month": month, "total": int(len(g)),
             "certified": int(counts.get("certified", 0)),
@@ -182,15 +185,21 @@ def aggregate(xlsx_bytes: bytes, source_name: str) -> dict:
             "medianDays": median(g["_days"].tolist()),
             "p25Days": quantile(g["_days"].tolist(), 0.25),
             "p75Days": quantile(g["_days"].tolist(), 0.75),
+            "merits": {"n": int(len(merits)), "p25Days": quantile(mdays, 0.25),
+                       "medianDays": median(mdays), "p75Days": quantile(mdays, 0.75)},
         })
     by_decision.sort(key=lambda r: r["month"])
     by_decision = by_decision[-MAX_DECISION_MONTHS:]
 
     # 2) 按递交月队列
+    #    merits = 排除 withdrawn 的已裁决案件。撤回案往往几天就结案，会把它混进来的
+    #    队列天数中位数大幅拉低（2025-09 递交月：全部裁决口径 180 天 vs 排除撤回 280 天）。
     by_submit = []
     for month, g in df.groupby(df[received].dt.strftime("%Y-%m"), dropna=True):
         dec = g.dropna(subset=[decision])
         counts = dec["_status"].map(STATUS_KEYS).dropna().value_counts()
+        merits = dec[dec["_status"] != "withdrawn"]
+        mdays = merits["_days"].tolist()
         by_submit.append({
             "month": month, "received": int(len(g)), "decided": int(len(dec)),
             "certified": int(counts.get("certified", 0)),
@@ -198,18 +207,21 @@ def aggregate(xlsx_bytes: bytes, source_name: str) -> dict:
             "withdrawn": int(counts.get("withdrawn", 0)),
             "medianDays": median(dec["_days"].tolist()),
             "p75Days": quantile(dec["_days"].tolist(), 0.75),
+            "merits": {"n": int(len(merits)), "p25Days": quantile(mdays, 0.25),
+                       "medianDays": median(mdays), "p75Days": quantile(mdays, 0.75)},
         })
     by_submit.sort(key=lambda r: r["month"])
     by_submit = by_submit[-MAX_SUBMIT_MONTHS:]
 
-    # 3) 字母进度：每个递交月里，各首字母已经裁决到哪个收到日
+    # 3) 字母进度：每个递交月里，各首字母已经裁决到哪个收到日。
+    #    注意：披露表只含"本期已裁决"的案件，队列越新，样本越偏向"几天内就结案"的那一小撮，
+    #    前沿值就没有参考价值。所以这里保留全部递交月（老队列才有意义），由前端按队列年龄决定是否出示。
     letter_rows = []
-    latest_submit = [r["month"] for r in by_submit[-12:]]
-    for month in latest_submit:
-        g = df[df[received].dt.strftime("%Y-%m") == month]
+    df["_sm"] = df[received].dt.strftime("%Y-%m")
+    for month, gm in df.groupby("_sm"):
         for letter in LETTERS:
-            sub = g[g["_letter"] == letter]
-            if not len(sub):
+            sub = gm[gm["_letter"] == letter]
+            if len(sub) < MIN_LETTER_CASES:
                 continue
             done = sub.dropna(subset=[decision])
             letter_rows.append({
@@ -243,7 +255,7 @@ def aggregate(xlsx_bytes: bytes, source_name: str) -> dict:
             "note": "received_biased 只包含已裁决案件的收到日，越靠近今天的月份越不完整，不能当新增量用",
         },
         "coverage": {"first_received": day_of(min(df[received].dropna())) if df[received].notna().any() else "",
-                     "last_decision": max([r["month"] + "-31" for r in by_decision] or [""])[:10]},
+                     "last_decision": (day_of(decided[decision].max()) if len(decided) else "")},
     }
 
 
