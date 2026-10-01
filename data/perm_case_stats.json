@@ -1,0 +1,6248 @@
+{
+ "schema": 1,
+ "generated_at": "2026-10-01T07:54:47Z",
+ "source": "PERM_Disclosure_Data_FY2026_Q3.xlsx",
+ "rows_total": 112550,
+ "rows_decided": 112550,
+ "columns": {
+  "received": "RECEIVED_DATE",
+  "decision": "DECISION_DATE",
+  "status": "CASE_STATUS",
+  "employer": "EMP_BUSINESS_NAME",
+  "program": null
+ },
+ "by_decision_month": [
+  {
+   "month": "2025-10",
+   "total": 21,
+   "certified": 0,
+   "certifiedExpired": 1,
+   "denied": 0,
+   "withdrawn": 20,
+   "medianDays": 326,
+   "p25Days": 83,
+   "p75Days": 396,
+   "merits": {
+    "n": 1,
+    "p25Days": 490,
+    "medianDays": 490,
+    "p75Days": 490
+   }
+  },
+  {
+   "month": "2025-11",
+   "total": 8890,
+   "certified": 0,
+   "certifiedExpired": 7863,
+   "denied": 238,
+   "withdrawn": 789,
+   "medianDays": 494,
+   "p25Days": 481,
+   "p75Days": 503,
+   "merits": {
+    "n": 8101,
+    "p25Days": 484,
+    "medianDays": 495,
+    "p75Days": 504
+   }
+  },
+  {
+   "month": "2025-12",
+   "total": 9198,
+   "certified": 36,
+   "certifiedExpired": 8299,
+   "denied": 295,
+   "withdrawn": 568,
+   "medianDays": 501,
+   "p25Days": 491,
+   "p75Days": 510,
+   "merits": {
+    "n": 8630,
+    "p25Days": 494,
+    "medianDays": 502,
+    "p75Days": 511
+   }
+  },
+  {
+   "month": "2026-01",
+   "total": 12842,
+   "certified": 11798,
+   "certifiedExpired": 124,
+   "denied": 361,
+   "withdrawn": 559,
+   "medianDays": 510,
+   "p25Days": 502,
+   "p75Days": 520,
+   "merits": {
+    "n": 12283,
+    "p25Days": 503,
+    "medianDays": 511,
+    "p75Days": 520
+   }
+  },
+  {
+   "month": "2026-02",
+   "total": 14327,
+   "certified": 13448,
+   "certifiedExpired": 0,
+   "denied": 441,
+   "withdrawn": 438,
+   "medianDays": 502,
+   "p25Days": 491,
+   "p75Days": 511,
+   "merits": {
+    "n": 13889,
+    "p25Days": 493,
+    "medianDays": 503,
+    "p75Days": 511
+   }
+  },
+  {
+   "month": "2026-03",
+   "total": 14671,
+   "certified": 13648,
+   "certifiedExpired": 0,
+   "denied": 444,
+   "withdrawn": 579,
+   "medianDays": 497,
+   "p25Days": 492,
+   "p75Days": 505,
+   "merits": {
+    "n": 14092,
+    "p25Days": 493,
+    "medianDays": 497,
+    "p75Days": 505
+   }
+  },
+  {
+   "month": "2026-04",
+   "total": 15003,
+   "certified": 13948,
+   "certifiedExpired": 0,
+   "denied": 604,
+   "withdrawn": 451,
+   "medianDays": 485,
+   "p25Days": 475,
+   "p75Days": 489,
+   "merits": {
+    "n": 14552,
+    "p25Days": 476,
+    "medianDays": 485,
+    "p75Days": 489
+   }
+  },
+  {
+   "month": "2026-05",
+   "total": 17811,
+   "certified": 16680,
+   "certifiedExpired": 0,
+   "denied": 581,
+   "withdrawn": 550,
+   "medianDays": 441,
+   "p25Days": 428,
+   "p75Days": 455,
+   "merits": {
+    "n": 17261,
+    "p25Days": 430,
+    "medianDays": 442,
+    "p75Days": 456
+   }
+  },
+  {
+   "month": "2026-06",
+   "total": 19787,
+   "certified": 18183,
+   "certifiedExpired": 0,
+   "denied": 915,
+   "withdrawn": 689,
+   "medianDays": 398,
+   "p25Days": 384,
+   "p75Days": 410,
+   "merits": {
+    "n": 19098,
+    "p25Days": 385,
+    "medianDays": 399,
+    "p75Days": 411
+   }
+  }
+ ],
+ "by_submit_month": [
+  {
+   "month": "2023-09",
+   "received": 17,
+   "decided": 17,
+   "certified": 17,
+   "denied": 0,
+   "withdrawn": 0,
+   "medianDays": 831,
+   "p75Days": 832,
+   "merits": {
+    "n": 17,
+    "p25Days": 824,
+    "medianDays": 831,
+    "p75Days": 832
+   }
+  },
+  {
+   "month": "2023-11",
+   "received": 38,
+   "decided": 38,
+   "certified": 35,
+   "denied": 2,
+   "withdrawn": 0,
+   "medianDays": 783,
+   "p75Days": 790,
+   "merits": {
+    "n": 38,
+    "p25Days": 776,
+    "medianDays": 783,
+    "p75Days": 790
+   }
+  },
+  {
+   "month": "2023-12",
+   "received": 11,
+   "decided": 11,
+   "certified": 5,
+   "denied": 3,
+   "withdrawn": 0,
+   "medianDays": 733,
+   "p75Days": 762,
+   "merits": {
+    "n": 11,
+    "p25Days": 714,
+    "medianDays": 733,
+    "p75Days": 762
+   }
+  },
+  {
+   "month": "2024-01",
+   "received": 28,
+   "decided": 28,
+   "certified": 3,
+   "denied": 19,
+   "withdrawn": 0,
+   "medianDays": 671,
+   "p75Days": 724,
+   "merits": {
+    "n": 28,
+    "p25Days": 659,
+    "medianDays": 671,
+    "p75Days": 724
+   }
+  },
+  {
+   "month": "2024-02",
+   "received": 73,
+   "decided": 73,
+   "certified": 7,
+   "denied": 48,
+   "withdrawn": 1,
+   "medianDays": 686,
+   "p75Days": 728,
+   "merits": {
+    "n": 72,
+    "p25Days": 632,
+    "medianDays": 683,
+    "p75Days": 728
+   }
+  },
+  {
+   "month": "2024-03",
+   "received": 134,
+   "decided": 134,
+   "certified": 38,
+   "denied": 81,
+   "withdrawn": 0,
+   "medianDays": 664,
+   "p75Days": 694,
+   "merits": {
+    "n": 134,
+    "p25Days": 633,
+    "medianDays": 664,
+    "p75Days": 694
+   }
+  },
+  {
+   "month": "2024-04",
+   "received": 287,
+   "decided": 287,
+   "certified": 28,
+   "denied": 148,
+   "withdrawn": 2,
+   "medianDays": 617,
+   "p75Days": 677,
+   "merits": {
+    "n": 285,
+    "p25Days": 585,
+    "medianDays": 617,
+    "p75Days": 677
+   }
+  },
+  {
+   "month": "2024-05",
+   "received": 516,
+   "decided": 516,
+   "certified": 56,
+   "denied": 179,
+   "withdrawn": 10,
+   "medianDays": 573,
+   "p75Days": 649,
+   "merits": {
+    "n": 506,
+    "p25Days": 548,
+    "medianDays": 574,
+    "p75Days": 650
+   }
+  },
+  {
+   "month": "2024-06",
+   "received": 2401,
+   "decided": 2401,
+   "certified": 125,
+   "denied": 502,
+   "withdrawn": 22,
+   "medianDays": 517,
+   "p75Days": 539,
+   "merits": {
+    "n": 2379,
+    "p25Days": 504,
+    "medianDays": 517,
+    "p75Days": 539
+   }
+  },
+  {
+   "month": "2024-07",
+   "received": 11091,
+   "decided": 11091,
+   "certified": 462,
+   "denied": 285,
+   "withdrawn": 82,
+   "medianDays": 498,
+   "p75Days": 508,
+   "merits": {
+    "n": 11009,
+    "p25Days": 489,
+    "medianDays": 498,
+    "p75Days": 508
+   }
+  },
+  {
+   "month": "2024-08",
+   "received": 12020,
+   "decided": 12020,
+   "certified": 7834,
+   "denied": 242,
+   "withdrawn": 93,
+   "medianDays": 510,
+   "p75Days": 520,
+   "merits": {
+    "n": 11927,
+    "p25Days": 498,
+    "medianDays": 510,
+    "p75Days": 520
+   }
+  },
+  {
+   "month": "2024-09",
+   "received": 11168,
+   "decided": 11168,
+   "certified": 10813,
+   "denied": 226,
+   "withdrawn": 129,
+   "medianDays": 506,
+   "p75Days": 513,
+   "merits": {
+    "n": 11039,
+    "p25Days": 499,
+    "medianDays": 506,
+    "p75Days": 513
+   }
+  },
+  {
+   "month": "2024-10",
+   "received": 12151,
+   "decided": 12151,
+   "certified": 11771,
+   "denied": 258,
+   "withdrawn": 122,
+   "medianDays": 500,
+   "p75Days": 509,
+   "merits": {
+    "n": 12029,
+    "p25Days": 490,
+    "medianDays": 500,
+    "p75Days": 509
+   }
+  },
+  {
+   "month": "2024-11",
+   "received": 9917,
+   "decided": 9917,
+   "certified": 9449,
+   "denied": 331,
+   "withdrawn": 137,
+   "medianDays": 495,
+   "p75Days": 498,
+   "merits": {
+    "n": 9780,
+    "p25Days": 490,
+    "medianDays": 495,
+    "p75Days": 498
+   }
+  },
+  {
+   "month": "2024-12",
+   "received": 9855,
+   "decided": 9855,
+   "certified": 9400,
+   "denied": 265,
+   "withdrawn": 190,
+   "medianDays": 486,
+   "p75Days": 488,
+   "merits": {
+    "n": 9665,
+    "p25Days": 483,
+    "medianDays": 486,
+    "p75Days": 489
+   }
+  },
+  {
+   "month": "2025-01",
+   "received": 6236,
+   "decided": 6236,
+   "certified": 5955,
+   "denied": 168,
+   "withdrawn": 113,
+   "medianDays": 468,
+   "p75Days": 475,
+   "merits": {
+    "n": 6123,
+    "p25Days": 461,
+    "medianDays": 468,
+    "p75Days": 475
+   }
+  },
+  {
+   "month": "2025-02",
+   "received": 6559,
+   "decided": 6559,
+   "certified": 6175,
+   "denied": 237,
+   "withdrawn": 147,
+   "medianDays": 450,
+   "p75Days": 455,
+   "merits": {
+    "n": 6412,
+    "p25Days": 445,
+    "medianDays": 450,
+    "p75Days": 455
+   }
+  },
+  {
+   "month": "2025-03",
+   "received": 6947,
+   "decided": 6947,
+   "certified": 6618,
+   "denied": 202,
+   "withdrawn": 127,
+   "medianDays": 433,
+   "p75Days": 438,
+   "merits": {
+    "n": 6820,
+    "p25Days": 427,
+    "medianDays": 433,
+    "p75Days": 438
+   }
+  },
+  {
+   "month": "2025-04",
+   "received": 7514,
+   "decided": 7514,
+   "certified": 7115,
+   "denied": 258,
+   "withdrawn": 141,
+   "medianDays": 413,
+   "p75Days": 419,
+   "merits": {
+    "n": 7373,
+    "p25Days": 407,
+    "medianDays": 413,
+    "p75Days": 419
+   }
+  },
+  {
+   "month": "2025-05",
+   "received": 7924,
+   "decided": 7924,
+   "certified": 7520,
+   "denied": 260,
+   "withdrawn": 144,
+   "medianDays": 396,
+   "p75Days": 401,
+   "merits": {
+    "n": 7780,
+    "p25Days": 390,
+    "medianDays": 397,
+    "p75Days": 401
+   }
+  },
+  {
+   "month": "2025-06",
+   "received": 4582,
+   "decided": 4582,
+   "certified": 4238,
+   "denied": 148,
+   "withdrawn": 196,
+   "medianDays": 381,
+   "p75Days": 384,
+   "merits": {
+    "n": 4386,
+    "p25Days": 375,
+    "medianDays": 381,
+    "p75Days": 384
+   }
+  },
+  {
+   "month": "2025-07",
+   "received": 184,
+   "decided": 184,
+   "certified": 15,
+   "denied": 1,
+   "withdrawn": 168,
+   "medianDays": 222,
+   "p75Days": 300,
+   "merits": {
+    "n": 16,
+    "p25Days": 323,
+    "medianDays": 330,
+    "p75Days": 340
+   }
+  },
+  {
+   "month": "2025-08",
+   "received": 224,
+   "decided": 224,
+   "certified": 30,
+   "denied": 7,
+   "withdrawn": 187,
+   "medianDays": 199,
+   "p75Days": 287,
+   "merits": {
+    "n": 37,
+    "p25Days": 289,
+    "medianDays": 297,
+    "p75Days": 306
+   }
+  },
+  {
+   "month": "2025-09",
+   "received": 311,
+   "decided": 311,
+   "certified": 27,
+   "denied": 0,
+   "withdrawn": 284,
+   "medianDays": 180,
+   "p75Days": 247,
+   "merits": {
+    "n": 27,
+    "p25Days": 279,
+    "medianDays": 280,
+    "p75Days": 281
+   }
+  },
+  {
+   "month": "2025-10",
+   "received": 21,
+   "decided": 21,
+   "certified": 0,
+   "denied": 0,
+   "withdrawn": 21,
+   "medianDays": 10,
+   "p75Days": 86,
+   "merits": {
+    "n": 0,
+    "p25Days": null,
+    "medianDays": null,
+    "p75Days": null
+   }
+  },
+  {
+   "month": "2025-11",
+   "received": 501,
+   "decided": 501,
+   "certified": 3,
+   "denied": 0,
+   "withdrawn": 498,
+   "medianDays": 13,
+   "p75Days": 122,
+   "merits": {
+    "n": 3,
+    "p25Days": 210,
+    "medianDays": 212,
+    "p75Days": 221
+   }
+  },
+  {
+   "month": "2025-12",
+   "received": 427,
+   "decided": 427,
+   "certified": 1,
+   "denied": 1,
+   "withdrawn": 425,
+   "medianDays": 21,
+   "p75Days": 112,
+   "merits": {
+    "n": 2,
+    "p25Days": 21,
+    "medianDays": 96,
+    "p75Days": 171
+   }
+  },
+  {
+   "month": "2026-01",
+   "received": 308,
+   "decided": 308,
+   "certified": 1,
+   "denied": 1,
+   "withdrawn": 306,
+   "medianDays": 11,
+   "p75Days": 67,
+   "merits": {
+    "n": 2,
+    "p25Days": 29,
+    "medianDays": 70,
+    "p75Days": 111
+   }
+  },
+  {
+   "month": "2026-02",
+   "received": 168,
+   "decided": 168,
+   "certified": 0,
+   "denied": 2,
+   "withdrawn": 166,
+   "medianDays": 6,
+   "p75Days": 43,
+   "merits": {
+    "n": 2,
+    "p25Days": 18,
+    "medianDays": 18,
+    "p75Days": 18
+   }
+  },
+  {
+   "month": "2026-03",
+   "received": 197,
+   "decided": 197,
+   "certified": 0,
+   "denied": 1,
+   "withdrawn": 196,
+   "medianDays": 6,
+   "p75Days": 35,
+   "merits": {
+    "n": 1,
+    "p25Days": 24,
+    "medianDays": 24,
+    "p75Days": 24
+   }
+  },
+  {
+   "month": "2026-04",
+   "received": 201,
+   "decided": 201,
+   "certified": 0,
+   "denied": 2,
+   "withdrawn": 199,
+   "medianDays": 7,
+   "p75Days": 38,
+   "merits": {
+    "n": 2,
+    "p25Days": 32,
+    "medianDays": 46,
+    "p75Days": 59
+   }
+  },
+  {
+   "month": "2026-05",
+   "received": 291,
+   "decided": 291,
+   "certified": 0,
+   "denied": 0,
+   "withdrawn": 291,
+   "medianDays": 5,
+   "p75Days": 22,
+   "merits": {
+    "n": 0,
+    "p25Days": null,
+    "medianDays": null,
+    "p75Days": null
+   }
+  },
+  {
+   "month": "2026-06",
+   "received": 248,
+   "decided": 248,
+   "certified": 0,
+   "denied": 2,
+   "withdrawn": 246,
+   "medianDays": 1,
+   "p75Days": 4,
+   "merits": {
+    "n": 2,
+    "p25Days": 1,
+    "medianDays": 4,
+    "p75Days": 7
+   }
+  }
+ ],
+ "letter_progress": [
+  {
+   "month": "2023-09",
+   "letter": "P",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2023-09-29",
+   "medianDays": 831
+  },
+  {
+   "month": "2023-11",
+   "letter": "P",
+   "cases": 36,
+   "decided": 36,
+   "lastDecidedReceived": "2023-11-30",
+   "medianDays": 784
+  },
+  {
+   "month": "2023-12",
+   "letter": "P",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2023-12-21",
+   "medianDays": 732
+  },
+  {
+   "month": "2024-01",
+   "letter": "S",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-01-26",
+   "medianDays": 668
+  },
+  {
+   "month": "2024-02",
+   "letter": "E",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-02-28",
+   "medianDays": 630
+  },
+  {
+   "month": "2024-02",
+   "letter": "F",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-02-27",
+   "medianDays": 636
+  },
+  {
+   "month": "2024-02",
+   "letter": "G",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-02-29",
+   "medianDays": 728
+  },
+  {
+   "month": "2024-02",
+   "letter": "M",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-02-07",
+   "medianDays": 704
+  },
+  {
+   "month": "2024-02",
+   "letter": "R",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-02-22",
+   "medianDays": 716
+  },
+  {
+   "month": "2024-02",
+   "letter": "S",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-02-29",
+   "medianDays": 712
+  },
+  {
+   "month": "2024-02",
+   "letter": "T",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2024-02-27",
+   "medianDays": 642
+  },
+  {
+   "month": "2024-02",
+   "letter": "U",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2024-02-23",
+   "medianDays": 728
+  },
+  {
+   "month": "2024-02",
+   "letter": "W",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2024-02-29",
+   "medianDays": 632
+  },
+  {
+   "month": "2024-03",
+   "letter": "A",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-03-26",
+   "medianDays": 626
+  },
+  {
+   "month": "2024-03",
+   "letter": "B",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-03-27",
+   "medianDays": 597
+  },
+  {
+   "month": "2024-03",
+   "letter": "C",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-03-27",
+   "medianDays": 636
+  },
+  {
+   "month": "2024-03",
+   "letter": "D",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-03-27",
+   "medianDays": 628
+  },
+  {
+   "month": "2024-03",
+   "letter": "E",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2024-03-22",
+   "medianDays": 628
+  },
+  {
+   "month": "2024-03",
+   "letter": "G",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2024-03-28",
+   "medianDays": 674
+  },
+  {
+   "month": "2024-03",
+   "letter": "H",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-03-29",
+   "medianDays": 672
+  },
+  {
+   "month": "2024-03",
+   "letter": "I",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-03-28",
+   "medianDays": 670
+  },
+  {
+   "month": "2024-03",
+   "letter": "K",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-03-30",
+   "medianDays": 670
+  },
+  {
+   "month": "2024-03",
+   "letter": "L",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-03-28",
+   "medianDays": 716
+  },
+  {
+   "month": "2024-03",
+   "letter": "M",
+   "cases": 23,
+   "decided": 23,
+   "lastDecidedReceived": "2024-03-29",
+   "medianDays": 643
+  },
+  {
+   "month": "2024-03",
+   "letter": "N",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2024-03-27",
+   "medianDays": 657
+  },
+  {
+   "month": "2024-03",
+   "letter": "P",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2024-03-25",
+   "medianDays": 694
+  },
+  {
+   "month": "2024-03",
+   "letter": "R",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2024-03-22",
+   "medianDays": 641
+  },
+  {
+   "month": "2024-03",
+   "letter": "S",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2024-03-29",
+   "medianDays": 684
+  },
+  {
+   "month": "2024-03",
+   "letter": "V",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-03-19",
+   "medianDays": 691
+  },
+  {
+   "month": "2024-03",
+   "letter": "W",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-03-26",
+   "medianDays": 705
+  },
+  {
+   "month": "2024-04",
+   "letter": "A",
+   "cases": 54,
+   "decided": 54,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 586
+  },
+  {
+   "month": "2024-04",
+   "letter": "B",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-04-23",
+   "medianDays": 600
+  },
+  {
+   "month": "2024-04",
+   "letter": "C",
+   "cases": 22,
+   "decided": 22,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 675
+  },
+  {
+   "month": "2024-04",
+   "letter": "D",
+   "cases": 35,
+   "decided": 35,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 578
+  },
+  {
+   "month": "2024-04",
+   "letter": "E",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2024-04-25",
+   "medianDays": 616
+  },
+  {
+   "month": "2024-04",
+   "letter": "F",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2024-04-18",
+   "medianDays": 677
+  },
+  {
+   "month": "2024-04",
+   "letter": "G",
+   "cases": 24,
+   "decided": 24,
+   "lastDecidedReceived": "2024-04-22",
+   "medianDays": 659
+  },
+  {
+   "month": "2024-04",
+   "letter": "H",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2024-04-05",
+   "medianDays": 704
+  },
+  {
+   "month": "2024-04",
+   "letter": "I",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-04-25",
+   "medianDays": 651
+  },
+  {
+   "month": "2024-04",
+   "letter": "J",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2024-04-23",
+   "medianDays": 588
+  },
+  {
+   "month": "2024-04",
+   "letter": "K",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-04-23",
+   "medianDays": 594
+  },
+  {
+   "month": "2024-04",
+   "letter": "N",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 687
+  },
+  {
+   "month": "2024-04",
+   "letter": "O",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2024-04-29",
+   "medianDays": 593
+  },
+  {
+   "month": "2024-04",
+   "letter": "P",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 595
+  },
+  {
+   "month": "2024-04",
+   "letter": "R",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-04-04",
+   "medianDays": 688
+  },
+  {
+   "month": "2024-04",
+   "letter": "S",
+   "cases": 25,
+   "decided": 25,
+   "lastDecidedReceived": "2024-04-30",
+   "medianDays": 699
+  },
+  {
+   "month": "2024-04",
+   "letter": "T",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2024-04-29",
+   "medianDays": 584
+  },
+  {
+   "month": "2024-04",
+   "letter": "U",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2024-04-29",
+   "medianDays": 654
+  },
+  {
+   "month": "2024-04",
+   "letter": "Y",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2024-04-26",
+   "medianDays": 577
+  },
+  {
+   "month": "2024-05",
+   "letter": "A",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 605
+  },
+  {
+   "month": "2024-05",
+   "letter": "B",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 594
+  },
+  {
+   "month": "2024-05",
+   "letter": "C",
+   "cases": 51,
+   "decided": 51,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 552
+  },
+  {
+   "month": "2024-05",
+   "letter": "D",
+   "cases": 37,
+   "decided": 37,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 594
+  },
+  {
+   "month": "2024-05",
+   "letter": "E",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 634
+  },
+  {
+   "month": "2024-05",
+   "letter": "F",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-05-30",
+   "medianDays": 645
+  },
+  {
+   "month": "2024-05",
+   "letter": "G",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2024-05-29",
+   "medianDays": 540
+  },
+  {
+   "month": "2024-05",
+   "letter": "H",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2024-05-24",
+   "medianDays": 552
+  },
+  {
+   "month": "2024-05",
+   "letter": "I",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2024-05-28",
+   "medianDays": 630
+  },
+  {
+   "month": "2024-05",
+   "letter": "J",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2024-05-30",
+   "medianDays": 574
+  },
+  {
+   "month": "2024-05",
+   "letter": "K",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2024-05-30",
+   "medianDays": 667
+  },
+  {
+   "month": "2024-05",
+   "letter": "L",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2024-05-29",
+   "medianDays": 608
+  },
+  {
+   "month": "2024-05",
+   "letter": "M",
+   "cases": 27,
+   "decided": 27,
+   "lastDecidedReceived": "2024-05-30",
+   "medianDays": 575
+  },
+  {
+   "month": "2024-05",
+   "letter": "N",
+   "cases": 36,
+   "decided": 36,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 570
+  },
+  {
+   "month": "2024-05",
+   "letter": "O",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 644
+  },
+  {
+   "month": "2024-05",
+   "letter": "P",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 573
+  },
+  {
+   "month": "2024-05",
+   "letter": "R",
+   "cases": 27,
+   "decided": 27,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 611
+  },
+  {
+   "month": "2024-05",
+   "letter": "S",
+   "cases": 88,
+   "decided": 88,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 575
+  },
+  {
+   "month": "2024-05",
+   "letter": "T",
+   "cases": 39,
+   "decided": 39,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 544
+  },
+  {
+   "month": "2024-05",
+   "letter": "U",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-05-24",
+   "medianDays": 612
+  },
+  {
+   "month": "2024-05",
+   "letter": "V",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-05-30",
+   "medianDays": 674
+  },
+  {
+   "month": "2024-05",
+   "letter": "W",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-05-31",
+   "medianDays": 682
+  },
+  {
+   "month": "2024-05",
+   "letter": "X",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-05-28",
+   "medianDays": 526
+  },
+  {
+   "month": "2024-06",
+   "letter": "A",
+   "cases": 90,
+   "decided": 90,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 546
+  },
+  {
+   "month": "2024-06",
+   "letter": "B",
+   "cases": 57,
+   "decided": 57,
+   "lastDecidedReceived": "2024-06-29",
+   "medianDays": 674
+  },
+  {
+   "month": "2024-06",
+   "letter": "C",
+   "cases": 133,
+   "decided": 133,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 517
+  },
+  {
+   "month": "2024-06",
+   "letter": "D",
+   "cases": 43,
+   "decided": 43,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 540
+  },
+  {
+   "month": "2024-06",
+   "letter": "E",
+   "cases": 42,
+   "decided": 42,
+   "lastDecidedReceived": "2024-06-29",
+   "medianDays": 526
+  },
+  {
+   "month": "2024-06",
+   "letter": "F",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2024-06-28",
+   "medianDays": 530
+  },
+  {
+   "month": "2024-06",
+   "letter": "G",
+   "cases": 37,
+   "decided": 37,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 546
+  },
+  {
+   "month": "2024-06",
+   "letter": "H",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 523
+  },
+  {
+   "month": "2024-06",
+   "letter": "I",
+   "cases": 28,
+   "decided": 28,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 531
+  },
+  {
+   "month": "2024-06",
+   "letter": "J",
+   "cases": 165,
+   "decided": 165,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 514
+  },
+  {
+   "month": "2024-06",
+   "letter": "K",
+   "cases": 74,
+   "decided": 74,
+   "lastDecidedReceived": "2024-06-29",
+   "medianDays": 517
+  },
+  {
+   "month": "2024-06",
+   "letter": "L",
+   "cases": 44,
+   "decided": 44,
+   "lastDecidedReceived": "2024-06-28",
+   "medianDays": 516
+  },
+  {
+   "month": "2024-06",
+   "letter": "M",
+   "cases": 214,
+   "decided": 214,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-06",
+   "letter": "N",
+   "cases": 180,
+   "decided": 180,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 522
+  },
+  {
+   "month": "2024-06",
+   "letter": "O",
+   "cases": 90,
+   "decided": 90,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 537
+  },
+  {
+   "month": "2024-06",
+   "letter": "P",
+   "cases": 65,
+   "decided": 65,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 506
+  },
+  {
+   "month": "2024-06",
+   "letter": "Q",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2024-06-28",
+   "medianDays": 598
+  },
+  {
+   "month": "2024-06",
+   "letter": "R",
+   "cases": 110,
+   "decided": 110,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 514
+  },
+  {
+   "month": "2024-06",
+   "letter": "S",
+   "cases": 423,
+   "decided": 423,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 520
+  },
+  {
+   "month": "2024-06",
+   "letter": "T",
+   "cases": 108,
+   "decided": 108,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 518
+  },
+  {
+   "month": "2024-06",
+   "letter": "U",
+   "cases": 180,
+   "decided": 180,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 501
+  },
+  {
+   "month": "2024-06",
+   "letter": "V",
+   "cases": 82,
+   "decided": 82,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 501
+  },
+  {
+   "month": "2024-06",
+   "letter": "W",
+   "cases": 177,
+   "decided": 177,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 511
+  },
+  {
+   "month": "2024-06",
+   "letter": "X",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2024-06-28",
+   "medianDays": 523
+  },
+  {
+   "month": "2024-06",
+   "letter": "Y",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2024-06-28",
+   "medianDays": 525
+  },
+  {
+   "month": "2024-06",
+   "letter": "Z",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2024-06-30",
+   "medianDays": 569
+  },
+  {
+   "month": "2024-07",
+   "letter": "A",
+   "cases": 726,
+   "decided": 726,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 484
+  },
+  {
+   "month": "2024-07",
+   "letter": "B",
+   "cases": 531,
+   "decided": 531,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-07",
+   "letter": "C",
+   "cases": 1258,
+   "decided": 1258,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 483
+  },
+  {
+   "month": "2024-07",
+   "letter": "D",
+   "cases": 413,
+   "decided": 413,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 492
+  },
+  {
+   "month": "2024-07",
+   "letter": "E",
+   "cases": 420,
+   "decided": 420,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-07",
+   "letter": "F",
+   "cases": 386,
+   "decided": 386,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 492
+  },
+  {
+   "month": "2024-07",
+   "letter": "G",
+   "cases": 328,
+   "decided": 328,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-07",
+   "letter": "H",
+   "cases": 384,
+   "decided": 384,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-07",
+   "letter": "I",
+   "cases": 399,
+   "decided": 399,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-07",
+   "letter": "J",
+   "cases": 366,
+   "decided": 366,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-07",
+   "letter": "K",
+   "cases": 205,
+   "decided": 205,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 509
+  },
+  {
+   "month": "2024-07",
+   "letter": "L",
+   "cases": 572,
+   "decided": 572,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 503
+  },
+  {
+   "month": "2024-07",
+   "letter": "M",
+   "cases": 793,
+   "decided": 793,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 499
+  },
+  {
+   "month": "2024-07",
+   "letter": "N",
+   "cases": 379,
+   "decided": 379,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 502
+  },
+  {
+   "month": "2024-07",
+   "letter": "O",
+   "cases": 220,
+   "decided": 220,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 504
+  },
+  {
+   "month": "2024-07",
+   "letter": "P",
+   "cases": 479,
+   "decided": 479,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 507
+  },
+  {
+   "month": "2024-07",
+   "letter": "Q",
+   "cases": 60,
+   "decided": 60,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 510
+  },
+  {
+   "month": "2024-07",
+   "letter": "R",
+   "cases": 367,
+   "decided": 367,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 510
+  },
+  {
+   "month": "2024-07",
+   "letter": "S",
+   "cases": 1100,
+   "decided": 1100,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 506
+  },
+  {
+   "month": "2024-07",
+   "letter": "T",
+   "cases": 628,
+   "decided": 628,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 510
+  },
+  {
+   "month": "2024-07",
+   "letter": "U",
+   "cases": 205,
+   "decided": 205,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 507
+  },
+  {
+   "month": "2024-07",
+   "letter": "V",
+   "cases": 239,
+   "decided": 239,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 513
+  },
+  {
+   "month": "2024-07",
+   "letter": "W",
+   "cases": 351,
+   "decided": 351,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 513
+  },
+  {
+   "month": "2024-07",
+   "letter": "X",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2024-07-30",
+   "medianDays": 537
+  },
+  {
+   "month": "2024-07",
+   "letter": "Y",
+   "cases": 129,
+   "decided": 129,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 508
+  },
+  {
+   "month": "2024-07",
+   "letter": "Z",
+   "cases": 95,
+   "decided": 95,
+   "lastDecidedReceived": "2024-07-31",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-08",
+   "letter": "A",
+   "cases": 1087,
+   "decided": 1087,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 491
+  },
+  {
+   "month": "2024-08",
+   "letter": "B",
+   "cases": 679,
+   "decided": 679,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 493
+  },
+  {
+   "month": "2024-08",
+   "letter": "C",
+   "cases": 1305,
+   "decided": 1305,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-08",
+   "letter": "D",
+   "cases": 427,
+   "decided": 427,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-08",
+   "letter": "E",
+   "cases": 377,
+   "decided": 377,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 503
+  },
+  {
+   "month": "2024-08",
+   "letter": "F",
+   "cases": 292,
+   "decided": 292,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 509
+  },
+  {
+   "month": "2024-08",
+   "letter": "G",
+   "cases": 342,
+   "decided": 342,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 505
+  },
+  {
+   "month": "2024-08",
+   "letter": "H",
+   "cases": 260,
+   "decided": 260,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 503
+  },
+  {
+   "month": "2024-08",
+   "letter": "I",
+   "cases": 578,
+   "decided": 578,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 509
+  },
+  {
+   "month": "2024-08",
+   "letter": "J",
+   "cases": 262,
+   "decided": 262,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 515
+  },
+  {
+   "month": "2024-08",
+   "letter": "K",
+   "cases": 187,
+   "decided": 187,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 514
+  },
+  {
+   "month": "2024-08",
+   "letter": "L",
+   "cases": 505,
+   "decided": 505,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 508
+  },
+  {
+   "month": "2024-08",
+   "letter": "M",
+   "cases": 1394,
+   "decided": 1394,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 515
+  },
+  {
+   "month": "2024-08",
+   "letter": "N",
+   "cases": 466,
+   "decided": 466,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-08",
+   "letter": "O",
+   "cases": 190,
+   "decided": 190,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 515
+  },
+  {
+   "month": "2024-08",
+   "letter": "P",
+   "cases": 452,
+   "decided": 452,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 518
+  },
+  {
+   "month": "2024-08",
+   "letter": "Q",
+   "cases": 70,
+   "decided": 70,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 510
+  },
+  {
+   "month": "2024-08",
+   "letter": "R",
+   "cases": 475,
+   "decided": 475,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 519
+  },
+  {
+   "month": "2024-08",
+   "letter": "S",
+   "cases": 1024,
+   "decided": 1024,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 519
+  },
+  {
+   "month": "2024-08",
+   "letter": "T",
+   "cases": 629,
+   "decided": 629,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 520
+  },
+  {
+   "month": "2024-08",
+   "letter": "U",
+   "cases": 216,
+   "decided": 216,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 519
+  },
+  {
+   "month": "2024-08",
+   "letter": "V",
+   "cases": 225,
+   "decided": 225,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 525
+  },
+  {
+   "month": "2024-08",
+   "letter": "W",
+   "cases": 307,
+   "decided": 307,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 521
+  },
+  {
+   "month": "2024-08",
+   "letter": "X",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2024-08-29",
+   "medianDays": 522
+  },
+  {
+   "month": "2024-08",
+   "letter": "Y",
+   "cases": 60,
+   "decided": 60,
+   "lastDecidedReceived": "2024-08-30",
+   "medianDays": 522
+  },
+  {
+   "month": "2024-08",
+   "letter": "Z",
+   "cases": 142,
+   "decided": 142,
+   "lastDecidedReceived": "2024-08-31",
+   "medianDays": 519
+  },
+  {
+   "month": "2024-09",
+   "letter": "A",
+   "cases": 954,
+   "decided": 954,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 499
+  },
+  {
+   "month": "2024-09",
+   "letter": "B",
+   "cases": 601,
+   "decided": 601,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 498
+  },
+  {
+   "month": "2024-09",
+   "letter": "C",
+   "cases": 1146,
+   "decided": 1146,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 501
+  },
+  {
+   "month": "2024-09",
+   "letter": "D",
+   "cases": 497,
+   "decided": 497,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 502
+  },
+  {
+   "month": "2024-09",
+   "letter": "E",
+   "cases": 339,
+   "decided": 339,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 511
+  },
+  {
+   "month": "2024-09",
+   "letter": "F",
+   "cases": 291,
+   "decided": 291,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 503
+  },
+  {
+   "month": "2024-09",
+   "letter": "G",
+   "cases": 436,
+   "decided": 436,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 505
+  },
+  {
+   "month": "2024-09",
+   "letter": "H",
+   "cases": 274,
+   "decided": 274,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 501
+  },
+  {
+   "month": "2024-09",
+   "letter": "I",
+   "cases": 353,
+   "decided": 353,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 507
+  },
+  {
+   "month": "2024-09",
+   "letter": "J",
+   "cases": 469,
+   "decided": 469,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 503
+  },
+  {
+   "month": "2024-09",
+   "letter": "K",
+   "cases": 218,
+   "decided": 218,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 505
+  },
+  {
+   "month": "2024-09",
+   "letter": "L",
+   "cases": 483,
+   "decided": 483,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 504
+  },
+  {
+   "month": "2024-09",
+   "letter": "M",
+   "cases": 803,
+   "decided": 803,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 506
+  },
+  {
+   "month": "2024-09",
+   "letter": "N",
+   "cases": 529,
+   "decided": 529,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 511
+  },
+  {
+   "month": "2024-09",
+   "letter": "O",
+   "cases": 147,
+   "decided": 147,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 507
+  },
+  {
+   "month": "2024-09",
+   "letter": "P",
+   "cases": 597,
+   "decided": 597,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 504
+  },
+  {
+   "month": "2024-09",
+   "letter": "Q",
+   "cases": 38,
+   "decided": 38,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 516
+  },
+  {
+   "month": "2024-09",
+   "letter": "R",
+   "cases": 295,
+   "decided": 295,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 514
+  },
+  {
+   "month": "2024-09",
+   "letter": "S",
+   "cases": 1064,
+   "decided": 1064,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-09",
+   "letter": "T",
+   "cases": 716,
+   "decided": 716,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 513
+  },
+  {
+   "month": "2024-09",
+   "letter": "U",
+   "cases": 248,
+   "decided": 248,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 508
+  },
+  {
+   "month": "2024-09",
+   "letter": "V",
+   "cases": 205,
+   "decided": 205,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 517
+  },
+  {
+   "month": "2024-09",
+   "letter": "W",
+   "cases": 256,
+   "decided": 256,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 524
+  },
+  {
+   "month": "2024-09",
+   "letter": "X",
+   "cases": 35,
+   "decided": 35,
+   "lastDecidedReceived": "2024-09-27",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-09",
+   "letter": "Y",
+   "cases": 39,
+   "decided": 39,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 511
+  },
+  {
+   "month": "2024-09",
+   "letter": "Z",
+   "cases": 111,
+   "decided": 111,
+   "lastDecidedReceived": "2024-09-30",
+   "medianDays": 513
+  },
+  {
+   "month": "2024-10",
+   "letter": "A",
+   "cases": 1000,
+   "decided": 1000,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 490
+  },
+  {
+   "month": "2024-10",
+   "letter": "B",
+   "cases": 555,
+   "decided": 555,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 488
+  },
+  {
+   "month": "2024-10",
+   "letter": "C",
+   "cases": 1248,
+   "decided": 1248,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 490
+  },
+  {
+   "month": "2024-10",
+   "letter": "D",
+   "cases": 514,
+   "decided": 514,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-10",
+   "letter": "E",
+   "cases": 418,
+   "decided": 418,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-10",
+   "letter": "F",
+   "cases": 320,
+   "decided": 320,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 502
+  },
+  {
+   "month": "2024-10",
+   "letter": "G",
+   "cases": 626,
+   "decided": 626,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-10",
+   "letter": "H",
+   "cases": 397,
+   "decided": 397,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-10",
+   "letter": "I",
+   "cases": 340,
+   "decided": 340,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-10",
+   "letter": "J",
+   "cases": 298,
+   "decided": 298,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 500
+  },
+  {
+   "month": "2024-10",
+   "letter": "K",
+   "cases": 427,
+   "decided": 427,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-10",
+   "letter": "L",
+   "cases": 333,
+   "decided": 333,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 500
+  },
+  {
+   "month": "2024-10",
+   "letter": "M",
+   "cases": 955,
+   "decided": 955,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 502
+  },
+  {
+   "month": "2024-10",
+   "letter": "N",
+   "cases": 568,
+   "decided": 568,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 500
+  },
+  {
+   "month": "2024-10",
+   "letter": "O",
+   "cases": 301,
+   "decided": 301,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 504
+  },
+  {
+   "month": "2024-10",
+   "letter": "P",
+   "cases": 441,
+   "decided": 441,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 505
+  },
+  {
+   "month": "2024-10",
+   "letter": "Q",
+   "cases": 81,
+   "decided": 81,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-10",
+   "letter": "R",
+   "cases": 403,
+   "decided": 403,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 505
+  },
+  {
+   "month": "2024-10",
+   "letter": "S",
+   "cases": 1018,
+   "decided": 1018,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 506
+  },
+  {
+   "month": "2024-10",
+   "letter": "T",
+   "cases": 800,
+   "decided": 800,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 508
+  },
+  {
+   "month": "2024-10",
+   "letter": "U",
+   "cases": 339,
+   "decided": 339,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 512
+  },
+  {
+   "month": "2024-10",
+   "letter": "V",
+   "cases": 219,
+   "decided": 219,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 515
+  },
+  {
+   "month": "2024-10",
+   "letter": "W",
+   "cases": 353,
+   "decided": 353,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 513
+  },
+  {
+   "month": "2024-10",
+   "letter": "X",
+   "cases": 33,
+   "decided": 33,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 518
+  },
+  {
+   "month": "2024-10",
+   "letter": "Y",
+   "cases": 44,
+   "decided": 44,
+   "lastDecidedReceived": "2024-10-29",
+   "medianDays": 517
+  },
+  {
+   "month": "2024-10",
+   "letter": "Z",
+   "cases": 92,
+   "decided": 92,
+   "lastDecidedReceived": "2024-10-31",
+   "medianDays": 516
+  },
+  {
+   "month": "2024-11",
+   "letter": "A",
+   "cases": 732,
+   "decided": 732,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "B",
+   "cases": 463,
+   "decided": 463,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-11",
+   "letter": "C",
+   "cases": 1385,
+   "decided": 1385,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 491
+  },
+  {
+   "month": "2024-11",
+   "letter": "D",
+   "cases": 390,
+   "decided": 390,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-11",
+   "letter": "E",
+   "cases": 359,
+   "decided": 359,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-11",
+   "letter": "F",
+   "cases": 316,
+   "decided": 316,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-11",
+   "letter": "G",
+   "cases": 354,
+   "decided": 354,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-11",
+   "letter": "H",
+   "cases": 275,
+   "decided": 275,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "I",
+   "cases": 249,
+   "decided": 249,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "J",
+   "cases": 256,
+   "decided": 256,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-11",
+   "letter": "K",
+   "cases": 247,
+   "decided": 247,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "L",
+   "cases": 295,
+   "decided": 295,
+   "lastDecidedReceived": "2024-11-28",
+   "medianDays": 494
+  },
+  {
+   "month": "2024-11",
+   "letter": "M",
+   "cases": 647,
+   "decided": 647,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 493
+  },
+  {
+   "month": "2024-11",
+   "letter": "N",
+   "cases": 732,
+   "decided": 732,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 490
+  },
+  {
+   "month": "2024-11",
+   "letter": "O",
+   "cases": 235,
+   "decided": 235,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 495
+  },
+  {
+   "month": "2024-11",
+   "letter": "P",
+   "cases": 514,
+   "decided": 514,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "Q",
+   "cases": 28,
+   "decided": 28,
+   "lastDecidedReceived": "2024-11-27",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "R",
+   "cases": 330,
+   "decided": 330,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "S",
+   "cases": 854,
+   "decided": 854,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "T",
+   "cases": 577,
+   "decided": 577,
+   "lastDecidedReceived": "2024-11-29",
+   "medianDays": 496
+  },
+  {
+   "month": "2024-11",
+   "letter": "U",
+   "cases": 217,
+   "decided": 217,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "V",
+   "cases": 124,
+   "decided": 124,
+   "lastDecidedReceived": "2024-11-27",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "W",
+   "cases": 181,
+   "decided": 181,
+   "lastDecidedReceived": "2024-11-30",
+   "medianDays": 497
+  },
+  {
+   "month": "2024-11",
+   "letter": "X",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2024-11-22",
+   "medianDays": 498
+  },
+  {
+   "month": "2024-11",
+   "letter": "Y",
+   "cases": 41,
+   "decided": 41,
+   "lastDecidedReceived": "2024-11-25",
+   "medianDays": 498
+  },
+  {
+   "month": "2024-11",
+   "letter": "Z",
+   "cases": 55,
+   "decided": 55,
+   "lastDecidedReceived": "2024-11-27",
+   "medianDays": 498
+  },
+  {
+   "month": "2024-12",
+   "letter": "A",
+   "cases": 856,
+   "decided": 856,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "B",
+   "cases": 477,
+   "decided": 477,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "C",
+   "cases": 968,
+   "decided": 968,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "D",
+   "cases": 429,
+   "decided": 429,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "E",
+   "cases": 384,
+   "decided": 384,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "F",
+   "cases": 431,
+   "decided": 431,
+   "lastDecidedReceived": "2024-12-30",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "G",
+   "cases": 342,
+   "decided": 342,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "H",
+   "cases": 307,
+   "decided": 307,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "I",
+   "cases": 285,
+   "decided": 285,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "J",
+   "cases": 266,
+   "decided": 266,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "K",
+   "cases": 202,
+   "decided": 202,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "L",
+   "cases": 321,
+   "decided": 321,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "M",
+   "cases": 778,
+   "decided": 778,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "N",
+   "cases": 282,
+   "decided": 282,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "O",
+   "cases": 161,
+   "decided": 161,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "P",
+   "cases": 453,
+   "decided": 453,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "Q",
+   "cases": 29,
+   "decided": 29,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "R",
+   "cases": 306,
+   "decided": 306,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "S",
+   "cases": 1101,
+   "decided": 1101,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "T",
+   "cases": 653,
+   "decided": 653,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "U",
+   "cases": 213,
+   "decided": 213,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2024-12",
+   "letter": "V",
+   "cases": 208,
+   "decided": 208,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 484
+  },
+  {
+   "month": "2024-12",
+   "letter": "W",
+   "cases": 257,
+   "decided": 257,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "X",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 487
+  },
+  {
+   "month": "2024-12",
+   "letter": "Y",
+   "cases": 24,
+   "decided": 24,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 485
+  },
+  {
+   "month": "2024-12",
+   "letter": "Z",
+   "cases": 59,
+   "decided": 59,
+   "lastDecidedReceived": "2024-12-31",
+   "medianDays": 486
+  },
+  {
+   "month": "2025-01",
+   "letter": "A",
+   "cases": 512,
+   "decided": 512,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 467
+  },
+  {
+   "month": "2025-01",
+   "letter": "B",
+   "cases": 243,
+   "decided": 243,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 468
+  },
+  {
+   "month": "2025-01",
+   "letter": "C",
+   "cases": 616,
+   "decided": 616,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 468
+  },
+  {
+   "month": "2025-01",
+   "letter": "D",
+   "cases": 369,
+   "decided": 369,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 465
+  },
+  {
+   "month": "2025-01",
+   "letter": "E",
+   "cases": 227,
+   "decided": 227,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 467
+  },
+  {
+   "month": "2025-01",
+   "letter": "F",
+   "cases": 253,
+   "decided": 253,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 463
+  },
+  {
+   "month": "2025-01",
+   "letter": "G",
+   "cases": 211,
+   "decided": 211,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 465
+  },
+  {
+   "month": "2025-01",
+   "letter": "H",
+   "cases": 200,
+   "decided": 200,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 471
+  },
+  {
+   "month": "2025-01",
+   "letter": "I",
+   "cases": 215,
+   "decided": 215,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 470
+  },
+  {
+   "month": "2025-01",
+   "letter": "J",
+   "cases": 259,
+   "decided": 259,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 469
+  },
+  {
+   "month": "2025-01",
+   "letter": "K",
+   "cases": 108,
+   "decided": 108,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 472
+  },
+  {
+   "month": "2025-01",
+   "letter": "L",
+   "cases": 292,
+   "decided": 292,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 467
+  },
+  {
+   "month": "2025-01",
+   "letter": "M",
+   "cases": 506,
+   "decided": 506,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 469
+  },
+  {
+   "month": "2025-01",
+   "letter": "N",
+   "cases": 212,
+   "decided": 212,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 471
+  },
+  {
+   "month": "2025-01",
+   "letter": "O",
+   "cases": 125,
+   "decided": 125,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 465
+  },
+  {
+   "month": "2025-01",
+   "letter": "P",
+   "cases": 257,
+   "decided": 257,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 469
+  },
+  {
+   "month": "2025-01",
+   "letter": "Q",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2025-01-30",
+   "medianDays": 476
+  },
+  {
+   "month": "2025-01",
+   "letter": "R",
+   "cases": 190,
+   "decided": 190,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 471
+  },
+  {
+   "month": "2025-01",
+   "letter": "S",
+   "cases": 564,
+   "decided": 564,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 466
+  },
+  {
+   "month": "2025-01",
+   "letter": "T",
+   "cases": 357,
+   "decided": 357,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 464
+  },
+  {
+   "month": "2025-01",
+   "letter": "U",
+   "cases": 143,
+   "decided": 143,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 473
+  },
+  {
+   "month": "2025-01",
+   "letter": "V",
+   "cases": 94,
+   "decided": 94,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 470
+  },
+  {
+   "month": "2025-01",
+   "letter": "W",
+   "cases": 173,
+   "decided": 173,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 466
+  },
+  {
+   "month": "2025-01",
+   "letter": "X",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2025-01-24",
+   "medianDays": 473
+  },
+  {
+   "month": "2025-01",
+   "letter": "Y",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 464
+  },
+  {
+   "month": "2025-01",
+   "letter": "Z",
+   "cases": 45,
+   "decided": 45,
+   "lastDecidedReceived": "2025-01-31",
+   "medianDays": 470
+  },
+  {
+   "month": "2025-02",
+   "letter": "A",
+   "cases": 626,
+   "decided": 626,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "B",
+   "cases": 312,
+   "decided": 312,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 452
+  },
+  {
+   "month": "2025-02",
+   "letter": "C",
+   "cases": 630,
+   "decided": 630,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "D",
+   "cases": 348,
+   "decided": 348,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 451
+  },
+  {
+   "month": "2025-02",
+   "letter": "E",
+   "cases": 233,
+   "decided": 233,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 451
+  },
+  {
+   "month": "2025-02",
+   "letter": "F",
+   "cases": 155,
+   "decided": 155,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "G",
+   "cases": 240,
+   "decided": 240,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "H",
+   "cases": 170,
+   "decided": 170,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "I",
+   "cases": 166,
+   "decided": 166,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "J",
+   "cases": 265,
+   "decided": 265,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "K",
+   "cases": 190,
+   "decided": 190,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 447
+  },
+  {
+   "month": "2025-02",
+   "letter": "L",
+   "cases": 208,
+   "decided": 208,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "M",
+   "cases": 534,
+   "decided": 534,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 451
+  },
+  {
+   "month": "2025-02",
+   "letter": "N",
+   "cases": 396,
+   "decided": 396,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "O",
+   "cases": 110,
+   "decided": 110,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 453
+  },
+  {
+   "month": "2025-02",
+   "letter": "P",
+   "cases": 205,
+   "decided": 205,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 454
+  },
+  {
+   "month": "2025-02",
+   "letter": "Q",
+   "cases": 31,
+   "decided": 31,
+   "lastDecidedReceived": "2025-02-26",
+   "medianDays": 448
+  },
+  {
+   "month": "2025-02",
+   "letter": "R",
+   "cases": 207,
+   "decided": 207,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 454
+  },
+  {
+   "month": "2025-02",
+   "letter": "S",
+   "cases": 596,
+   "decided": 596,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "T",
+   "cases": 399,
+   "decided": 399,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "U",
+   "cases": 154,
+   "decided": 154,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 449
+  },
+  {
+   "month": "2025-02",
+   "letter": "V",
+   "cases": 111,
+   "decided": 111,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 453
+  },
+  {
+   "month": "2025-02",
+   "letter": "W",
+   "cases": 183,
+   "decided": 183,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 450
+  },
+  {
+   "month": "2025-02",
+   "letter": "X",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-02-25",
+   "medianDays": 454
+  },
+  {
+   "month": "2025-02",
+   "letter": "Y",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2025-02-27",
+   "medianDays": 453
+  },
+  {
+   "month": "2025-02",
+   "letter": "Z",
+   "cases": 39,
+   "decided": 39,
+   "lastDecidedReceived": "2025-02-28",
+   "medianDays": 455
+  },
+  {
+   "month": "2025-03",
+   "letter": "A",
+   "cases": 606,
+   "decided": 606,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 432
+  },
+  {
+   "month": "2025-03",
+   "letter": "B",
+   "cases": 363,
+   "decided": 363,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "C",
+   "cases": 603,
+   "decided": 603,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 433
+  },
+  {
+   "month": "2025-03",
+   "letter": "D",
+   "cases": 248,
+   "decided": 248,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "E",
+   "cases": 241,
+   "decided": 241,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "F",
+   "cases": 148,
+   "decided": 148,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 433
+  },
+  {
+   "month": "2025-03",
+   "letter": "G",
+   "cases": 169,
+   "decided": 169,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "H",
+   "cases": 187,
+   "decided": 187,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "I",
+   "cases": 187,
+   "decided": 187,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 433
+  },
+  {
+   "month": "2025-03",
+   "letter": "J",
+   "cases": 254,
+   "decided": 254,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "K",
+   "cases": 234,
+   "decided": 234,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "L",
+   "cases": 294,
+   "decided": 294,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 426
+  },
+  {
+   "month": "2025-03",
+   "letter": "M",
+   "cases": 595,
+   "decided": 595,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "N",
+   "cases": 342,
+   "decided": 342,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "O",
+   "cases": 120,
+   "decided": 120,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "P",
+   "cases": 476,
+   "decided": 476,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 429
+  },
+  {
+   "month": "2025-03",
+   "letter": "Q",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "R",
+   "cases": 173,
+   "decided": 173,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 435
+  },
+  {
+   "month": "2025-03",
+   "letter": "S",
+   "cases": 674,
+   "decided": 674,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 432
+  },
+  {
+   "month": "2025-03",
+   "letter": "T",
+   "cases": 352,
+   "decided": 352,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 431
+  },
+  {
+   "month": "2025-03",
+   "letter": "U",
+   "cases": 203,
+   "decided": 203,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 433
+  },
+  {
+   "month": "2025-03",
+   "letter": "V",
+   "cases": 134,
+   "decided": 134,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 431
+  },
+  {
+   "month": "2025-03",
+   "letter": "W",
+   "cases": 226,
+   "decided": 226,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "X",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-03-25",
+   "medianDays": 453
+  },
+  {
+   "month": "2025-03",
+   "letter": "Y",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2025-03-28",
+   "medianDays": 434
+  },
+  {
+   "month": "2025-03",
+   "letter": "Z",
+   "cases": 50,
+   "decided": 50,
+   "lastDecidedReceived": "2025-03-31",
+   "medianDays": 428
+  },
+  {
+   "month": "2025-04",
+   "letter": "A",
+   "cases": 525,
+   "decided": 525,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 413
+  },
+  {
+   "month": "2025-04",
+   "letter": "B",
+   "cases": 302,
+   "decided": 302,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 414
+  },
+  {
+   "month": "2025-04",
+   "letter": "C",
+   "cases": 677,
+   "decided": 677,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 416
+  },
+  {
+   "month": "2025-04",
+   "letter": "D",
+   "cases": 326,
+   "decided": 326,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 421
+  },
+  {
+   "month": "2025-04",
+   "letter": "E",
+   "cases": 195,
+   "decided": 195,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 413
+  },
+  {
+   "month": "2025-04",
+   "letter": "F",
+   "cases": 210,
+   "decided": 210,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 411
+  },
+  {
+   "month": "2025-04",
+   "letter": "G",
+   "cases": 257,
+   "decided": 257,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 413
+  },
+  {
+   "month": "2025-04",
+   "letter": "H",
+   "cases": 232,
+   "decided": 232,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 416
+  },
+  {
+   "month": "2025-04",
+   "letter": "I",
+   "cases": 209,
+   "decided": 209,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 413
+  },
+  {
+   "month": "2025-04",
+   "letter": "J",
+   "cases": 186,
+   "decided": 186,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 414
+  },
+  {
+   "month": "2025-04",
+   "letter": "K",
+   "cases": 227,
+   "decided": 227,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 415
+  },
+  {
+   "month": "2025-04",
+   "letter": "L",
+   "cases": 499,
+   "decided": 499,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 414
+  },
+  {
+   "month": "2025-04",
+   "letter": "M",
+   "cases": 781,
+   "decided": 781,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 412
+  },
+  {
+   "month": "2025-04",
+   "letter": "N",
+   "cases": 348,
+   "decided": 348,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 407
+  },
+  {
+   "month": "2025-04",
+   "letter": "O",
+   "cases": 196,
+   "decided": 196,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 401
+  },
+  {
+   "month": "2025-04",
+   "letter": "P",
+   "cases": 268,
+   "decided": 268,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 415
+  },
+  {
+   "month": "2025-04",
+   "letter": "Q",
+   "cases": 45,
+   "decided": 45,
+   "lastDecidedReceived": "2025-04-29",
+   "medianDays": 410
+  },
+  {
+   "month": "2025-04",
+   "letter": "R",
+   "cases": 186,
+   "decided": 186,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 415
+  },
+  {
+   "month": "2025-04",
+   "letter": "S",
+   "cases": 715,
+   "decided": 715,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 410
+  },
+  {
+   "month": "2025-04",
+   "letter": "T",
+   "cases": 483,
+   "decided": 483,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 411
+  },
+  {
+   "month": "2025-04",
+   "letter": "U",
+   "cases": 225,
+   "decided": 225,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 415
+  },
+  {
+   "month": "2025-04",
+   "letter": "V",
+   "cases": 95,
+   "decided": 95,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 413
+  },
+  {
+   "month": "2025-04",
+   "letter": "W",
+   "cases": 222,
+   "decided": 222,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 414
+  },
+  {
+   "month": "2025-04",
+   "letter": "X",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 410
+  },
+  {
+   "month": "2025-04",
+   "letter": "Y",
+   "cases": 28,
+   "decided": 28,
+   "lastDecidedReceived": "2025-04-29",
+   "medianDays": 408
+  },
+  {
+   "month": "2025-04",
+   "letter": "Z",
+   "cases": 47,
+   "decided": 47,
+   "lastDecidedReceived": "2025-04-30",
+   "medianDays": 414
+  },
+  {
+   "month": "2025-05",
+   "letter": "A",
+   "cases": 571,
+   "decided": 571,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 392
+  },
+  {
+   "month": "2025-05",
+   "letter": "B",
+   "cases": 380,
+   "decided": 380,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 393
+  },
+  {
+   "month": "2025-05",
+   "letter": "C",
+   "cases": 587,
+   "decided": 587,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 393
+  },
+  {
+   "month": "2025-05",
+   "letter": "D",
+   "cases": 243,
+   "decided": 243,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 391
+  },
+  {
+   "month": "2025-05",
+   "letter": "E",
+   "cases": 207,
+   "decided": 207,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 391
+  },
+  {
+   "month": "2025-05",
+   "letter": "F",
+   "cases": 194,
+   "decided": 194,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 392
+  },
+  {
+   "month": "2025-05",
+   "letter": "G",
+   "cases": 247,
+   "decided": 247,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 391
+  },
+  {
+   "month": "2025-05",
+   "letter": "H",
+   "cases": 234,
+   "decided": 234,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 389
+  },
+  {
+   "month": "2025-05",
+   "letter": "I",
+   "cases": 257,
+   "decided": 257,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 395
+  },
+  {
+   "month": "2025-05",
+   "letter": "J",
+   "cases": 253,
+   "decided": 253,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 397
+  },
+  {
+   "month": "2025-05",
+   "letter": "K",
+   "cases": 190,
+   "decided": 190,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 396
+  },
+  {
+   "month": "2025-05",
+   "letter": "L",
+   "cases": 250,
+   "decided": 250,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 392
+  },
+  {
+   "month": "2025-05",
+   "letter": "M",
+   "cases": 908,
+   "decided": 908,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 398
+  },
+  {
+   "month": "2025-05",
+   "letter": "N",
+   "cases": 535,
+   "decided": 535,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 395
+  },
+  {
+   "month": "2025-05",
+   "letter": "O",
+   "cases": 225,
+   "decided": 225,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 399
+  },
+  {
+   "month": "2025-05",
+   "letter": "P",
+   "cases": 293,
+   "decided": 293,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 399
+  },
+  {
+   "month": "2025-05",
+   "letter": "Q",
+   "cases": 78,
+   "decided": 78,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 400
+  },
+  {
+   "month": "2025-05",
+   "letter": "R",
+   "cases": 218,
+   "decided": 218,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 398
+  },
+  {
+   "month": "2025-05",
+   "letter": "S",
+   "cases": 775,
+   "decided": 775,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 397
+  },
+  {
+   "month": "2025-05",
+   "letter": "T",
+   "cases": 519,
+   "decided": 519,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 400
+  },
+  {
+   "month": "2025-05",
+   "letter": "U",
+   "cases": 251,
+   "decided": 251,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 397
+  },
+  {
+   "month": "2025-05",
+   "letter": "V",
+   "cases": 140,
+   "decided": 140,
+   "lastDecidedReceived": "2025-05-30",
+   "medianDays": 400
+  },
+  {
+   "month": "2025-05",
+   "letter": "W",
+   "cases": 260,
+   "decided": 260,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 398
+  },
+  {
+   "month": "2025-05",
+   "letter": "X",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2025-05-28",
+   "medianDays": 402
+  },
+  {
+   "month": "2025-05",
+   "letter": "Y",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2025-05-28",
+   "medianDays": 394
+  },
+  {
+   "month": "2025-05",
+   "letter": "Z",
+   "cases": 47,
+   "decided": 47,
+   "lastDecidedReceived": "2025-05-31",
+   "medianDays": 399
+  },
+  {
+   "month": "2025-06",
+   "letter": "A",
+   "cases": 455,
+   "decided": 455,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "B",
+   "cases": 263,
+   "decided": 263,
+   "lastDecidedReceived": "2025-06-29",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "C",
+   "cases": 390,
+   "decided": 390,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "D",
+   "cases": 154,
+   "decided": 154,
+   "lastDecidedReceived": "2025-06-27",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "E",
+   "cases": 137,
+   "decided": 137,
+   "lastDecidedReceived": "2025-06-29",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "F",
+   "cases": 123,
+   "decided": 123,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "G",
+   "cases": 108,
+   "decided": 108,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "H",
+   "cases": 138,
+   "decided": 138,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "I",
+   "cases": 197,
+   "decided": 197,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "J",
+   "cases": 161,
+   "decided": 161,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 371
+  },
+  {
+   "month": "2025-06",
+   "letter": "K",
+   "cases": 75,
+   "decided": 75,
+   "lastDecidedReceived": "2025-06-19",
+   "medianDays": 383
+  },
+  {
+   "month": "2025-06",
+   "letter": "L",
+   "cases": 156,
+   "decided": 156,
+   "lastDecidedReceived": "2025-06-27",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "M",
+   "cases": 283,
+   "decided": 283,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 380
+  },
+  {
+   "month": "2025-06",
+   "letter": "N",
+   "cases": 167,
+   "decided": 167,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 378
+  },
+  {
+   "month": "2025-06",
+   "letter": "O",
+   "cases": 160,
+   "decided": 160,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 377
+  },
+  {
+   "month": "2025-06",
+   "letter": "P",
+   "cases": 243,
+   "decided": 243,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 380
+  },
+  {
+   "month": "2025-06",
+   "letter": "Q",
+   "cases": 22,
+   "decided": 22,
+   "lastDecidedReceived": "2025-06-18",
+   "medianDays": 383
+  },
+  {
+   "month": "2025-06",
+   "letter": "R",
+   "cases": 158,
+   "decided": 158,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "S",
+   "cases": 589,
+   "decided": 589,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 382
+  },
+  {
+   "month": "2025-06",
+   "letter": "T",
+   "cases": 302,
+   "decided": 302,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 378
+  },
+  {
+   "month": "2025-06",
+   "letter": "U",
+   "cases": 34,
+   "decided": 34,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 371
+  },
+  {
+   "month": "2025-06",
+   "letter": "V",
+   "cases": 113,
+   "decided": 113,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 370
+  },
+  {
+   "month": "2025-06",
+   "letter": "W",
+   "cases": 70,
+   "decided": 70,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 381
+  },
+  {
+   "month": "2025-06",
+   "letter": "X",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-06-19",
+   "medianDays": 379
+  },
+  {
+   "month": "2025-06",
+   "letter": "Y",
+   "cases": 23,
+   "decided": 23,
+   "lastDecidedReceived": "2025-06-27",
+   "medianDays": 379
+  },
+  {
+   "month": "2025-06",
+   "letter": "Z",
+   "cases": 39,
+   "decided": 39,
+   "lastDecidedReceived": "2025-06-30",
+   "medianDays": 376
+  },
+  {
+   "month": "2025-07",
+   "letter": "A",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 172
+  },
+  {
+   "month": "2025-07",
+   "letter": "B",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-07-29",
+   "medianDays": 256
+  },
+  {
+   "month": "2025-07",
+   "letter": "C",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 181
+  },
+  {
+   "month": "2025-07",
+   "letter": "D",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-07-30",
+   "medianDays": 186
+  },
+  {
+   "month": "2025-07",
+   "letter": "F",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 199
+  },
+  {
+   "month": "2025-07",
+   "letter": "G",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-07-30",
+   "medianDays": 186
+  },
+  {
+   "month": "2025-07",
+   "letter": "H",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-07-29",
+   "medianDays": 224
+  },
+  {
+   "month": "2025-07",
+   "letter": "J",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-07-14",
+   "medianDays": 204
+  },
+  {
+   "month": "2025-07",
+   "letter": "K",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-07-29",
+   "medianDays": 146
+  },
+  {
+   "month": "2025-07",
+   "letter": "L",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-07-30",
+   "medianDays": 258
+  },
+  {
+   "month": "2025-07",
+   "letter": "M",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2025-07-30",
+   "medianDays": 275
+  },
+  {
+   "month": "2025-07",
+   "letter": "N",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-07-24",
+   "medianDays": 238
+  },
+  {
+   "month": "2025-07",
+   "letter": "O",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2025-07-25",
+   "medianDays": 300
+  },
+  {
+   "month": "2025-07",
+   "letter": "P",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-07-27",
+   "medianDays": 224
+  },
+  {
+   "month": "2025-07",
+   "letter": "R",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-07-27",
+   "medianDays": 298
+  },
+  {
+   "month": "2025-07",
+   "letter": "S",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 300
+  },
+  {
+   "month": "2025-07",
+   "letter": "T",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-07-30",
+   "medianDays": 238
+  },
+  {
+   "month": "2025-07",
+   "letter": "U",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-07-28",
+   "medianDays": 252
+  },
+  {
+   "month": "2025-07",
+   "letter": "V",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 158
+  },
+  {
+   "month": "2025-07",
+   "letter": "W",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-07-31",
+   "medianDays": 138
+  },
+  {
+   "month": "2025-08",
+   "letter": "A",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-08-29",
+   "medianDays": 190
+  },
+  {
+   "month": "2025-08",
+   "letter": "B",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2025-08-29",
+   "medianDays": 195
+  },
+  {
+   "month": "2025-08",
+   "letter": "C",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2025-08-31",
+   "medianDays": 189
+  },
+  {
+   "month": "2025-08",
+   "letter": "D",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-08-27",
+   "medianDays": 186
+  },
+  {
+   "month": "2025-08",
+   "letter": "E",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-08-25",
+   "medianDays": 206
+  },
+  {
+   "month": "2025-08",
+   "letter": "F",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-08-26",
+   "medianDays": 191
+  },
+  {
+   "month": "2025-08",
+   "letter": "G",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 158
+  },
+  {
+   "month": "2025-08",
+   "letter": "H",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-08-25",
+   "medianDays": 212
+  },
+  {
+   "month": "2025-08",
+   "letter": "I",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 301
+  },
+  {
+   "month": "2025-08",
+   "letter": "J",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-08-26",
+   "medianDays": 190
+  },
+  {
+   "month": "2025-08",
+   "letter": "L",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 199
+  },
+  {
+   "month": "2025-08",
+   "letter": "M",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-08-29",
+   "medianDays": 113
+  },
+  {
+   "month": "2025-08",
+   "letter": "N",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-08-26",
+   "medianDays": 137
+  },
+  {
+   "month": "2025-08",
+   "letter": "O",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-08-20",
+   "medianDays": 230
+  },
+  {
+   "month": "2025-08",
+   "letter": "P",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-08-27",
+   "medianDays": 208
+  },
+  {
+   "month": "2025-08",
+   "letter": "R",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 116
+  },
+  {
+   "month": "2025-08",
+   "letter": "S",
+   "cases": 33,
+   "decided": 33,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 296
+  },
+  {
+   "month": "2025-08",
+   "letter": "T",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-08-29",
+   "medianDays": 148
+  },
+  {
+   "month": "2025-08",
+   "letter": "U",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-08-29",
+   "medianDays": 229
+  },
+  {
+   "month": "2025-08",
+   "letter": "V",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-08-28",
+   "medianDays": 288
+  },
+  {
+   "month": "2025-08",
+   "letter": "W",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-08-31",
+   "medianDays": 110
+  },
+  {
+   "month": "2025-09",
+   "letter": "A",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 176
+  },
+  {
+   "month": "2025-09",
+   "letter": "B",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 146
+  },
+  {
+   "month": "2025-09",
+   "letter": "C",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 78
+  },
+  {
+   "month": "2025-09",
+   "letter": "D",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 59
+  },
+  {
+   "month": "2025-09",
+   "letter": "E",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 189
+  },
+  {
+   "month": "2025-09",
+   "letter": "F",
+   "cases": 37,
+   "decided": 37,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 247
+  },
+  {
+   "month": "2025-09",
+   "letter": "G",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 194
+  },
+  {
+   "month": "2025-09",
+   "letter": "H",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-09-26",
+   "medianDays": 171
+  },
+  {
+   "month": "2025-09",
+   "letter": "I",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 182
+  },
+  {
+   "month": "2025-09",
+   "letter": "J",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 148
+  },
+  {
+   "month": "2025-09",
+   "letter": "K",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 177
+  },
+  {
+   "month": "2025-09",
+   "letter": "L",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 209
+  },
+  {
+   "month": "2025-09",
+   "letter": "M",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 172
+  },
+  {
+   "month": "2025-09",
+   "letter": "N",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 77
+  },
+  {
+   "month": "2025-09",
+   "letter": "O",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 39
+  },
+  {
+   "month": "2025-09",
+   "letter": "P",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 220
+  },
+  {
+   "month": "2025-09",
+   "letter": "R",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 175
+  },
+  {
+   "month": "2025-09",
+   "letter": "S",
+   "cases": 48,
+   "decided": 48,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 237
+  },
+  {
+   "month": "2025-09",
+   "letter": "T",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2025-09-30",
+   "medianDays": 191
+  },
+  {
+   "month": "2025-09",
+   "letter": "U",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-09-29",
+   "medianDays": 160
+  },
+  {
+   "month": "2025-09",
+   "letter": "V",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-09-29",
+   "medianDays": 159
+  },
+  {
+   "month": "2025-09",
+   "letter": "W",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-09-29",
+   "medianDays": 98
+  },
+  {
+   "month": "2025-10",
+   "letter": "E",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-10-31",
+   "medianDays": 7
+  },
+  {
+   "month": "2025-10",
+   "letter": "S",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-10-31",
+   "medianDays": 3
+  },
+  {
+   "month": "2025-11",
+   "letter": "A",
+   "cases": 84,
+   "decided": 84,
+   "lastDecidedReceived": "2025-11-28",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-11",
+   "letter": "B",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2025-11-29",
+   "medianDays": 8
+  },
+  {
+   "month": "2025-11",
+   "letter": "C",
+   "cases": 62,
+   "decided": 62,
+   "lastDecidedReceived": "2025-11-28",
+   "medianDays": 122
+  },
+  {
+   "month": "2025-11",
+   "letter": "D",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-11-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-11",
+   "letter": "E",
+   "cases": 24,
+   "decided": 24,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 7
+  },
+  {
+   "month": "2025-11",
+   "letter": "F",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 22
+  },
+  {
+   "month": "2025-11",
+   "letter": "G",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2025-11-28",
+   "medianDays": 3
+  },
+  {
+   "month": "2025-11",
+   "letter": "H",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 3
+  },
+  {
+   "month": "2025-11",
+   "letter": "I",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 3
+  },
+  {
+   "month": "2025-11",
+   "letter": "J",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-11-22",
+   "medianDays": 27
+  },
+  {
+   "month": "2025-11",
+   "letter": "K",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-11-20",
+   "medianDays": 52
+  },
+  {
+   "month": "2025-11",
+   "letter": "L",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-11-28",
+   "medianDays": 1
+  },
+  {
+   "month": "2025-11",
+   "letter": "M",
+   "cases": 23,
+   "decided": 23,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 7
+  },
+  {
+   "month": "2025-11",
+   "letter": "N",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-11-29",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-11",
+   "letter": "O",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2025-11-20",
+   "medianDays": 35
+  },
+  {
+   "month": "2025-11",
+   "letter": "P",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 49
+  },
+  {
+   "month": "2025-11",
+   "letter": "R",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2025-11-25",
+   "medianDays": 2
+  },
+  {
+   "month": "2025-11",
+   "letter": "S",
+   "cases": 45,
+   "decided": 45,
+   "lastDecidedReceived": "2025-11-28",
+   "medianDays": 8
+  },
+  {
+   "month": "2025-11",
+   "letter": "T",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-11-26",
+   "medianDays": 21
+  },
+  {
+   "month": "2025-11",
+   "letter": "U",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-11-20",
+   "medianDays": 70
+  },
+  {
+   "month": "2025-11",
+   "letter": "V",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-11-29",
+   "medianDays": 25
+  },
+  {
+   "month": "2025-11",
+   "letter": "W",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-11-30",
+   "medianDays": 19
+  },
+  {
+   "month": "2025-11",
+   "letter": "Z",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2025-11-21",
+   "medianDays": 143
+  },
+  {
+   "month": "2025-12",
+   "letter": "A",
+   "cases": 75,
+   "decided": 75,
+   "lastDecidedReceived": "2025-12-30",
+   "medianDays": 112
+  },
+  {
+   "month": "2025-12",
+   "letter": "B",
+   "cases": 28,
+   "decided": 28,
+   "lastDecidedReceived": "2025-12-23",
+   "medianDays": 64
+  },
+  {
+   "month": "2025-12",
+   "letter": "C",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2025-12-31",
+   "medianDays": 8
+  },
+  {
+   "month": "2025-12",
+   "letter": "D",
+   "cases": 25,
+   "decided": 25,
+   "lastDecidedReceived": "2025-12-29",
+   "medianDays": 112
+  },
+  {
+   "month": "2025-12",
+   "letter": "E",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-12-26",
+   "medianDays": 19
+  },
+  {
+   "month": "2025-12",
+   "letter": "F",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2025-12-29",
+   "medianDays": 2
+  },
+  {
+   "month": "2025-12",
+   "letter": "G",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-12-26",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-12",
+   "letter": "H",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-12-18",
+   "medianDays": 9
+  },
+  {
+   "month": "2025-12",
+   "letter": "I",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2025-12-17",
+   "medianDays": 0
+  },
+  {
+   "month": "2025-12",
+   "letter": "J",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-12-22",
+   "medianDays": 22
+  },
+  {
+   "month": "2025-12",
+   "letter": "K",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-12-08",
+   "medianDays": 50
+  },
+  {
+   "month": "2025-12",
+   "letter": "L",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2025-12-15",
+   "medianDays": 35
+  },
+  {
+   "month": "2025-12",
+   "letter": "M",
+   "cases": 22,
+   "decided": 22,
+   "lastDecidedReceived": "2025-12-31",
+   "medianDays": 8
+  },
+  {
+   "month": "2025-12",
+   "letter": "N",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2025-12-31",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-12",
+   "letter": "O",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2025-12-23",
+   "medianDays": 0
+  },
+  {
+   "month": "2025-12",
+   "letter": "P",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2025-12-30",
+   "medianDays": 28
+  },
+  {
+   "month": "2025-12",
+   "letter": "R",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2025-12-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2025-12",
+   "letter": "S",
+   "cases": 53,
+   "decided": 53,
+   "lastDecidedReceived": "2025-12-31",
+   "medianDays": 12
+  },
+  {
+   "month": "2025-12",
+   "letter": "T",
+   "cases": 25,
+   "decided": 25,
+   "lastDecidedReceived": "2025-12-23",
+   "medianDays": 1
+  },
+  {
+   "month": "2025-12",
+   "letter": "U",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2025-12-30",
+   "medianDays": 34
+  },
+  {
+   "month": "2025-12",
+   "letter": "V",
+   "cases": 30,
+   "decided": 30,
+   "lastDecidedReceived": "2025-12-30",
+   "medianDays": 20
+  },
+  {
+   "month": "2025-12",
+   "letter": "W",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2025-12-26",
+   "medianDays": 2
+  },
+  {
+   "month": "2025-12",
+   "letter": "Z",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2025-12-29",
+   "medianDays": 64
+  },
+  {
+   "month": "2026-01",
+   "letter": "A",
+   "cases": 43,
+   "decided": 43,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 42
+  },
+  {
+   "month": "2026-01",
+   "letter": "B",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2026-01-31",
+   "medianDays": 10
+  },
+  {
+   "month": "2026-01",
+   "letter": "C",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-01",
+   "letter": "D",
+   "cases": 14,
+   "decided": 14,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 32
+  },
+  {
+   "month": "2026-01",
+   "letter": "E",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 9
+  },
+  {
+   "month": "2026-01",
+   "letter": "F",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 52
+  },
+  {
+   "month": "2026-01",
+   "letter": "G",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 44
+  },
+  {
+   "month": "2026-01",
+   "letter": "H",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-01",
+   "letter": "I",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 11
+  },
+  {
+   "month": "2026-01",
+   "letter": "J",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-01-26",
+   "medianDays": 80
+  },
+  {
+   "month": "2026-01",
+   "letter": "K",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 7
+  },
+  {
+   "month": "2026-01",
+   "letter": "L",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-01",
+   "letter": "M",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-01",
+   "letter": "N",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-01",
+   "letter": "O",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-01-29",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-01",
+   "letter": "P",
+   "cases": 24,
+   "decided": 24,
+   "lastDecidedReceived": "2026-01-31",
+   "medianDays": 12
+  },
+  {
+   "month": "2026-01",
+   "letter": "Q",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-01",
+   "letter": "R",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-01",
+   "letter": "S",
+   "cases": 27,
+   "decided": 27,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 29
+  },
+  {
+   "month": "2026-01",
+   "letter": "T",
+   "cases": 25,
+   "decided": 25,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-01",
+   "letter": "U",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-01",
+   "letter": "V",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-01",
+   "letter": "W",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-01-30",
+   "medianDays": 28
+  },
+  {
+   "month": "2026-02",
+   "letter": "A",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-02",
+   "letter": "B",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 7
+  },
+  {
+   "month": "2026-02",
+   "letter": "C",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-02",
+   "letter": "D",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-02",
+   "letter": "E",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-02-25",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-02",
+   "letter": "F",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-02-26",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-02",
+   "letter": "G",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-02-20",
+   "medianDays": 113
+  },
+  {
+   "month": "2026-02",
+   "letter": "H",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-02",
+   "letter": "I",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-02-26",
+   "medianDays": 42
+  },
+  {
+   "month": "2026-02",
+   "letter": "J",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-02",
+   "letter": "K",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-02-26",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-02",
+   "letter": "L",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-02-24",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-02",
+   "letter": "M",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-02",
+   "letter": "N",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-02-23",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-02",
+   "letter": "P",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-02-19",
+   "medianDays": 10
+  },
+  {
+   "month": "2026-02",
+   "letter": "R",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-02-26",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-02",
+   "letter": "S",
+   "cases": 17,
+   "decided": 17,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 14
+  },
+  {
+   "month": "2026-02",
+   "letter": "T",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-02-27",
+   "medianDays": 11
+  },
+  {
+   "month": "2026-02",
+   "letter": "U",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-02-26",
+   "medianDays": 12
+  },
+  {
+   "month": "2026-02",
+   "letter": "V",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-02-25",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-02",
+   "letter": "W",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-02-18",
+   "medianDays": 33
+  },
+  {
+   "month": "2026-03",
+   "letter": "A",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2026-03-31",
+   "medianDays": 20
+  },
+  {
+   "month": "2026-03",
+   "letter": "B",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2026-03-27",
+   "medianDays": 6
+  },
+  {
+   "month": "2026-03",
+   "letter": "C",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-03-27",
+   "medianDays": 20
+  },
+  {
+   "month": "2026-03",
+   "letter": "D",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-03-30",
+   "medianDays": 7
+  },
+  {
+   "month": "2026-03",
+   "letter": "E",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-03-16",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-03",
+   "letter": "F",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-03-27",
+   "medianDays": 56
+  },
+  {
+   "month": "2026-03",
+   "letter": "G",
+   "cases": 26,
+   "decided": 26,
+   "lastDecidedReceived": "2026-03-31",
+   "medianDays": 66
+  },
+  {
+   "month": "2026-03",
+   "letter": "H",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-03-31",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-03",
+   "letter": "I",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-03-27",
+   "medianDays": 6
+  },
+  {
+   "month": "2026-03",
+   "letter": "J",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-03-26",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-03",
+   "letter": "L",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-03-18",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-03",
+   "letter": "M",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2026-03-26",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-03",
+   "letter": "N",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-03-27",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-03",
+   "letter": "P",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-03-30",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-03",
+   "letter": "R",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-03-31",
+   "medianDays": 23
+  },
+  {
+   "month": "2026-03",
+   "letter": "S",
+   "cases": 21,
+   "decided": 21,
+   "lastDecidedReceived": "2026-03-31",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-03",
+   "letter": "T",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-03-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-03",
+   "letter": "W",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-03-25",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-04",
+   "letter": "A",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-04",
+   "letter": "C",
+   "cases": 22,
+   "decided": 22,
+   "lastDecidedReceived": "2026-04-28",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-04",
+   "letter": "D",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-04-28",
+   "medianDays": 7
+  },
+  {
+   "month": "2026-04",
+   "letter": "E",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 9
+  },
+  {
+   "month": "2026-04",
+   "letter": "F",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-04",
+   "letter": "G",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 55
+  },
+  {
+   "month": "2026-04",
+   "letter": "H",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-04-28",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-04",
+   "letter": "I",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-04-27",
+   "medianDays": 37
+  },
+  {
+   "month": "2026-04",
+   "letter": "J",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-04",
+   "letter": "K",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-04-21",
+   "medianDays": 32
+  },
+  {
+   "month": "2026-04",
+   "letter": "L",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-04-29",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-04",
+   "letter": "M",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-04-27",
+   "medianDays": 9
+  },
+  {
+   "month": "2026-04",
+   "letter": "N",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-04-29",
+   "medianDays": 20
+  },
+  {
+   "month": "2026-04",
+   "letter": "P",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2026-04-29",
+   "medianDays": 15
+  },
+  {
+   "month": "2026-04",
+   "letter": "Q",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-04-29",
+   "medianDays": 15
+  },
+  {
+   "month": "2026-04",
+   "letter": "R",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-04-14",
+   "medianDays": 28
+  },
+  {
+   "month": "2026-04",
+   "letter": "S",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-04-23",
+   "medianDays": 34
+  },
+  {
+   "month": "2026-04",
+   "letter": "T",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-04-24",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-04",
+   "letter": "U",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-04-29",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-04",
+   "letter": "V",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-04-30",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-04",
+   "letter": "W",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-04-16",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-05",
+   "letter": "A",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-05-27",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-05",
+   "letter": "B",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-05-14",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-05",
+   "letter": "C",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-05",
+   "letter": "D",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-05",
+   "letter": "E",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-05-20",
+   "medianDays": 6
+  },
+  {
+   "month": "2026-05",
+   "letter": "F",
+   "cases": 24,
+   "decided": 24,
+   "lastDecidedReceived": "2026-05-31",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-05",
+   "letter": "G",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 23
+  },
+  {
+   "month": "2026-05",
+   "letter": "H",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-05",
+   "letter": "J",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-05-28",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-05",
+   "letter": "K",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-05-28",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-05",
+   "letter": "L",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-05-28",
+   "medianDays": 11
+  },
+  {
+   "month": "2026-05",
+   "letter": "M",
+   "cases": 28,
+   "decided": 28,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 5
+  },
+  {
+   "month": "2026-05",
+   "letter": "N",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-05-31",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-05",
+   "letter": "O",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-05-26",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-05",
+   "letter": "P",
+   "cases": 64,
+   "decided": 64,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 27
+  },
+  {
+   "month": "2026-05",
+   "letter": "Q",
+   "cases": 11,
+   "decided": 11,
+   "lastDecidedReceived": "2026-05-22",
+   "medianDays": 11
+  },
+  {
+   "month": "2026-05",
+   "letter": "R",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-05-22",
+   "medianDays": 4
+  },
+  {
+   "month": "2026-05",
+   "letter": "S",
+   "cases": 16,
+   "decided": 16,
+   "lastDecidedReceived": "2026-05-31",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-05",
+   "letter": "T",
+   "cases": 22,
+   "decided": 22,
+   "lastDecidedReceived": "2026-05-28",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-05",
+   "letter": "U",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-05",
+   "letter": "V",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-05-28",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-05",
+   "letter": "W",
+   "cases": 12,
+   "decided": 12,
+   "lastDecidedReceived": "2026-05-29",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "A",
+   "cases": 38,
+   "decided": 38,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-06",
+   "letter": "B",
+   "cases": 5,
+   "decided": 5,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-06",
+   "letter": "C",
+   "cases": 13,
+   "decided": 13,
+   "lastDecidedReceived": "2026-06-28",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-06",
+   "letter": "E",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "F",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-06",
+   "letter": "G",
+   "cases": 19,
+   "decided": 19,
+   "lastDecidedReceived": "2026-06-29",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "H",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-06",
+   "letter": "I",
+   "cases": 3,
+   "decided": 3,
+   "lastDecidedReceived": "2026-06-27",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-06",
+   "letter": "J",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-06-29",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-06",
+   "letter": "K",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-06",
+   "letter": "L",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-06-25",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "M",
+   "cases": 15,
+   "decided": 15,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "N",
+   "cases": 7,
+   "decided": 7,
+   "lastDecidedReceived": "2026-06-25",
+   "medianDays": 7
+  },
+  {
+   "month": "2026-06",
+   "letter": "O",
+   "cases": 6,
+   "decided": 6,
+   "lastDecidedReceived": "2026-06-16",
+   "medianDays": 10
+  },
+  {
+   "month": "2026-06",
+   "letter": "P",
+   "cases": 18,
+   "decided": 18,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 1
+  },
+  {
+   "month": "2026-06",
+   "letter": "R",
+   "cases": 8,
+   "decided": 8,
+   "lastDecidedReceived": "2026-06-23",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "S",
+   "cases": 27,
+   "decided": 27,
+   "lastDecidedReceived": "2026-06-30",
+   "medianDays": 0
+  },
+  {
+   "month": "2026-06",
+   "letter": "T",
+   "cases": 10,
+   "decided": 10,
+   "lastDecidedReceived": "2026-06-29",
+   "medianDays": 2
+  },
+  {
+   "month": "2026-06",
+   "letter": "U",
+   "cases": 20,
+   "decided": 20,
+   "lastDecidedReceived": "2026-06-26",
+   "medianDays": 8
+  },
+  {
+   "month": "2026-06",
+   "letter": "V",
+   "cases": 9,
+   "decided": 9,
+   "lastDecidedReceived": "2026-06-29",
+   "medianDays": 3
+  },
+  {
+   "month": "2026-06",
+   "letter": "Z",
+   "cases": 4,
+   "decided": 4,
+   "lastDecidedReceived": "2026-06-29",
+   "medianDays": 0
+  }
+ ],
+ "daily": {
+  "decided": [
+   {
+    "date": "2026-05-17",
+    "count": 56
+   },
+   {
+    "date": "2026-05-18",
+    "count": 947
+   },
+   {
+    "date": "2026-05-19",
+    "count": 962
+   },
+   {
+    "date": "2026-05-20",
+    "count": 813
+   },
+   {
+    "date": "2026-05-21",
+    "count": 809
+   },
+   {
+    "date": "2026-05-22",
+    "count": 368
+   },
+   {
+    "date": "2026-05-23",
+    "count": 162
+   },
+   {
+    "date": "2026-05-24",
+    "count": 95
+   },
+   {
+    "date": "2026-05-25",
+    "count": 9
+   },
+   {
+    "date": "2026-05-26",
+    "count": 782
+   },
+   {
+    "date": "2026-05-27",
+    "count": 777
+   },
+   {
+    "date": "2026-05-28",
+    "count": 903
+   },
+   {
+    "date": "2026-05-29",
+    "count": 908
+   },
+   {
+    "date": "2026-05-30",
+    "count": 248
+   },
+   {
+    "date": "2026-05-31",
+    "count": 194
+   },
+   {
+    "date": "2026-06-01",
+    "count": 949
+   },
+   {
+    "date": "2026-06-02",
+    "count": 818
+   },
+   {
+    "date": "2026-06-03",
+    "count": 1046
+   },
+   {
+    "date": "2026-06-04",
+    "count": 928
+   },
+   {
+    "date": "2026-06-05",
+    "count": 697
+   },
+   {
+    "date": "2026-06-06",
+    "count": 142
+   },
+   {
+    "date": "2026-06-07",
+    "count": 119
+   },
+   {
+    "date": "2026-06-08",
+    "count": 1038
+   },
+   {
+    "date": "2026-06-09",
+    "count": 1019
+   },
+   {
+    "date": "2026-06-10",
+    "count": 882
+   },
+   {
+    "date": "2026-06-11",
+    "count": 767
+   },
+   {
+    "date": "2026-06-12",
+    "count": 742
+   },
+   {
+    "date": "2026-06-13",
+    "count": 302
+   },
+   {
+    "date": "2026-06-14",
+    "count": 134
+   },
+   {
+    "date": "2026-06-15",
+    "count": 1000
+   },
+   {
+    "date": "2026-06-16",
+    "count": 914
+   },
+   {
+    "date": "2026-06-17",
+    "count": 873
+   },
+   {
+    "date": "2026-06-18",
+    "count": 684
+   },
+   {
+    "date": "2026-06-19",
+    "count": 9
+   },
+   {
+    "date": "2026-06-20",
+    "count": 113
+   },
+   {
+    "date": "2026-06-21",
+    "count": 139
+   },
+   {
+    "date": "2026-06-22",
+    "count": 755
+   },
+   {
+    "date": "2026-06-23",
+    "count": 837
+   },
+   {
+    "date": "2026-06-24",
+    "count": 1145
+   },
+   {
+    "date": "2026-06-25",
+    "count": 793
+   },
+   {
+    "date": "2026-06-26",
+    "count": 818
+   },
+   {
+    "date": "2026-06-27",
+    "count": 222
+   },
+   {
+    "date": "2026-06-28",
+    "count": 202
+   },
+   {
+    "date": "2026-06-29",
+    "count": 792
+   },
+   {
+    "date": "2026-06-30",
+    "count": 908
+   }
+  ],
+  "received_biased": [
+   {
+    "date": "2026-05-17",
+    "count": 1
+   },
+   {
+    "date": "2026-05-18",
+    "count": 7
+   },
+   {
+    "date": "2026-05-19",
+    "count": 6
+   },
+   {
+    "date": "2026-05-20",
+    "count": 9
+   },
+   {
+    "date": "2026-05-21",
+    "count": 3
+   },
+   {
+    "date": "2026-05-22",
+    "count": 12
+   },
+   {
+    "date": "2026-05-23",
+    "count": 2
+   },
+   {
+    "date": "2026-05-24",
+    "count": 2
+   },
+   {
+    "date": "2026-05-25",
+    "count": 1
+   },
+   {
+    "date": "2026-05-26",
+    "count": 5
+   },
+   {
+    "date": "2026-05-27",
+    "count": 13
+   },
+   {
+    "date": "2026-05-28",
+    "count": 8
+   },
+   {
+    "date": "2026-05-29",
+    "count": 10
+   },
+   {
+    "date": "2026-05-30",
+    "count": 1
+   },
+   {
+    "date": "2026-05-31",
+    "count": 9
+   },
+   {
+    "date": "2026-06-01",
+    "count": 7
+   },
+   {
+    "date": "2026-06-02",
+    "count": 7
+   },
+   {
+    "date": "2026-06-03",
+    "count": 8
+   },
+   {
+    "date": "2026-06-04",
+    "count": 5
+   },
+   {
+    "date": "2026-06-05",
+    "count": 17
+   },
+   {
+    "date": "2026-06-06",
+    "count": 5
+   },
+   {
+    "date": "2026-06-07",
+    "count": 1
+   },
+   {
+    "date": "2026-06-08",
+    "count": 9
+   },
+   {
+    "date": "2026-06-09",
+    "count": 7
+   },
+   {
+    "date": "2026-06-10",
+    "count": 9
+   },
+   {
+    "date": "2026-06-11",
+    "count": 7
+   },
+   {
+    "date": "2026-06-12",
+    "count": 7
+   },
+   {
+    "date": "2026-06-13",
+    "count": 1
+   },
+   {
+    "date": "2026-06-14",
+    "count": 0
+   },
+   {
+    "date": "2026-06-15",
+    "count": 10
+   },
+   {
+    "date": "2026-06-16",
+    "count": 3
+   },
+   {
+    "date": "2026-06-17",
+    "count": 5
+   },
+   {
+    "date": "2026-06-18",
+    "count": 13
+   },
+   {
+    "date": "2026-06-19",
+    "count": 6
+   },
+   {
+    "date": "2026-06-20",
+    "count": 2
+   },
+   {
+    "date": "2026-06-21",
+    "count": 1
+   },
+   {
+    "date": "2026-06-22",
+    "count": 4
+   },
+   {
+    "date": "2026-06-23",
+    "count": 21
+   },
+   {
+    "date": "2026-06-24",
+    "count": 14
+   },
+   {
+    "date": "2026-06-25",
+    "count": 13
+   },
+   {
+    "date": "2026-06-26",
+    "count": 23
+   },
+   {
+    "date": "2026-06-27",
+    "count": 3
+   },
+   {
+    "date": "2026-06-28",
+    "count": 1
+   },
+   {
+    "date": "2026-06-29",
+    "count": 18
+   },
+   {
+    "date": "2026-06-30",
+    "count": 21
+   }
+  ],
+  "note": "received_biased 只包含已裁决案件的收到日，越靠近今天的月份越不完整，不能当新增量用"
+ },
+ "coverage": {
+  "first_received": "2023-09-05",
+  "last_decision": "2026-06-30"
+ }
+}
