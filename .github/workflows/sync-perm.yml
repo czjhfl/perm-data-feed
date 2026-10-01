@@ -1,0 +1,56 @@
+name: Sync PERM disclosure data
+
+# 每周一抓官方季度披露表 → 聚合成 data/perm_case_stats.json → 提交回本仓库。
+# 我们的 Cloudflare Worker 读 raw.githubusercontent.com 上这个文件，前端展示。
+# 抓取失败时**不覆盖**上一次的数据，只在 data/perm_status.json 里留一条失败记录。
+
+on:
+  schedule:
+    - cron: "0 10 * * 1"      # 每周一 10:00 UTC（北京时间 18:00）
+  workflow_dispatch: {}       # 也可以在网页上手动跑一次
+
+permissions:
+  contents: write             # 用内置 GITHUB_TOKEN 提交，不需要额外令牌
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: 抓取并聚合
+        id: fetch
+        run: python scripts/fetch_perm_disclosure.py
+        continue-on-error: true
+
+      - name: 提交结果
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ || true
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "data: PERM 聚合更新 $(date -u +%F)"
+            git push
+            echo "已提交"
+          else
+            echo "数据无变化或本次抓取失败，保留上一次结果"
+          fi
+
+      - name: 打印本次状态
+        run: cat data/perm_status.json
+
+      - name: 抓取失败就让任务标红（数据保持上一版）
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::error::PERM 抓取失败，见 data/perm_status.json"
+          exit 1
