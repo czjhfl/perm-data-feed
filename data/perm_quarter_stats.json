@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "fiscal_year": 2026,
+ "quarter": "Q3",
+ "as_of": "2026-06-30",
+ "received": {
+  "fy": 82234,
+  "Q1": 30757,
+  "Q2": 24604,
+  "Q3": 26873,
+  "Q4": null,
+  "change_from_prior_fy_pct": -1.8
+ },
+ "processed": {
+  "certified": {
+   "fy": 104028,
+   "Q1": 16199,
+   "Q2": 39018,
+   "Q3": 48811,
+   "Q4": null
+  },
+  "denied": {
+   "fy": 3879,
+   "Q1": 533,
+   "Q2": 1246,
+   "Q3": 2100,
+   "Q4": null
+  },
+  "withdrawn": {
+   "fy": 4643,
+   "Q1": 1377,
+   "Q2": 1576,
+   "Q3": 1690,
+   "Q4": null
+  },
+  "total": {
+   "fy": 112550,
+   "Q1": 18109,
+   "Q2": 41840,
+   "Q3": 52601,
+   "Q4": null
+  }
+ },
+ "backlog": {
+  "total": 120429,
+  "as_of": "2026-06-30",
+  "audit": 0,
+  "supervised_recruitment": 1,
+  "other_in_review": 120428
+ },
+ "source_pdf": "PERM_Selected_Statistics_FY2026_Q3.pdf",
+ "parsed_at": "2026-10-01T10:53:41Z"
+}
