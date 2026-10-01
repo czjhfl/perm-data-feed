@@ -1,0 +1,10 @@
+{
+ "checked_at": "2026-10-01T09:24:41Z",
+ "page": "https://www.dol.gov/agencies/eta/foreign-labor/performance",
+ "readable_at": "https://github.com/czjhfl/perm-data-feed/blob/main/data/perm_feed_watch.json",
+ "ok": true,
+ "latest_file": "PERM_Disclosure_Data_FY2026_Q3.xlsx",
+ "files_on_page": 11,
+ "status": "up-to-date",
+ "message": "还是 PERM_Disclosure_Data_FY2026_Q3.xlsx，本站点上的数据就是最新的，不用做任何事"
+}
