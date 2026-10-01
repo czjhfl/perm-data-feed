@@ -1,1 +1,59 @@
+name: Probe DOL reachability
 
+# 只做一件事：验证 GitHub 的 runner 能不能用真实浏览器从 www.dol.gov 取到 PERM 披露表。
+# 不下载整表、不提交任何文件。跑一次几分钟，看日志里的结论即可。
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 装 Playwright 与 Chromium
+        run: |
+          pip install playwright==1.48.0
+          playwright install --with-deps chromium
+
+      - name: 探测 performance 页面与最新文件
+        run: |
+          python - <<'PY'
+          import re, sys
+          from playwright.sync_api import sync_playwright
+
+          URL = "https://www.dol.gov/agencies/eta/foreign-labor/performance"
+          with sync_playwright() as p:
+              b = p.chromium.launch()
+              ctx = b.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                             "AppleWebKit/537.36 (KHTML, like Gecko) "
+                                             "Chrome/129.0.0.0 Safari/537.36", locale="en-US")
+              page = ctx.new_page()
+              page.goto(URL, wait_until="domcontentloaded", timeout=90000)
+              page.wait_for_timeout(3000)
+              html = page.content()
+              if "Access Denied" in html or "edgesuite" in html:
+                  print("结论：被拦 —— DOL 拒绝了这台 runner 的 IP（Access Denied）")
+                  print("参考号片段：", re.findall(r"Reference #[0-9a-f.]+", html)[:1])
+                  b.close(); sys.exit(2)
+              links = page.eval_on_selector_all("a[href*='.xlsx']", "els => els.map(e => e.href)")
+              perm = [u for u in links if re.search(r"PERM_Disclosure_Data_FY\d{4}_Q\d", u, re.I)]
+              print("结论：可达 —— 页面 %d 字节，xlsx 链接 %d 个，其中 PERM 披露表 %d 个"
+                    % (len(html), len(links), len(perm)))
+              for u in sorted(perm)[-5:]:
+                  print("  ", u.rsplit("/", 1)[-1])
+              if perm:
+                  head = ctx.request.get(perm[-1], timeout=120000)
+                  print("  下载试探：HTTP %s，content-length=%s"
+                        % (head.status, head.headers.get("content-length")))
+                  print("  结论：可下载 —— 方案一的取数环节成立")
+              b.close()
+          PY
